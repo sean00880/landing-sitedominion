@@ -34,11 +34,11 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <Heading
               {...title}
-              content="Grandpa Ron's LLC | Lawns & Landscape"
+              content="Designation Dump LLC | Junk Removal in Canal Winchester, OH"
             />
             <Text
               {...description}
-              content="Grandpa Ron's Lawns and Landscape is a family-owned and operated landscaping and lawn care business serving the Canal Winchester, Ohio area."
+              content="Designation Dump is a professional junk removal service that helps Grandpa Ron's landscaping and lawncare business get rid of unwanted junk."
             />
           </Box>
           <Box {...imageWrapper}>

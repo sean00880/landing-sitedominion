@@ -20,7 +20,7 @@ const WorkingProcessSection = ({
   processDescriptionStyle,
 }) => {
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="process_section">
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="WORKING PROCESS" />

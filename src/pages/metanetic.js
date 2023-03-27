@@ -6,28 +6,28 @@ import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
-import dynamic from 'next/dynamic';
-const BannerSection = dynamic(() => import( 'containers/SaasModern/Banner'));
-const Navbar = dynamic(() => import( 'containers/SaasModern/Navbar'));
-const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
-const PricingSection = dynamic(() => import('containers/SaasModern/Pricing'));
-const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
-const FaqSection = dynamic(() => import('containers/SaasModern/Faq'));
-const TrialSection = dynamic(() => import('containers/SaasModern/Trial'));
-const InfoSection = dynamic(() => import('containers/SaasModern/Info'));
-const FeatureSection = dynamic(() => import('containers/SaasModern/Feature'));
-const UpdateScreen = dynamic(() => import('containers/SaasModern/UpdateScreen'));
-const TestimonialSection = dynamic(() => import('containers/SaasModern/Testimonial'));
-const Footer = dynamic(() => import('containers/SaasModern/Footer'));
-const Service = dynamic(() => import('containers/AgencyDigital/Service'));
-const Gallery = dynamic(() => import('containers/Interior/Gallery'));
+
+import BannerSection from 'containers/SaasModern/Banner/BannerProjects3';
+import Navbar from 'containers/SaasModern/Navbar';
+import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
+import PricingSection from 'containers/SaasModern/Pricing';
+import PartnerSection from 'containers/SaasModern/Partner';
+import FaqSection from 'containers/SaasModern/Faq';
+import TrialSection from 'containers/SaasModern/Trial';
+import InfoSection from 'containers/SaasModern/Info/Project3Info';
+import FeatureSection from 'containers/SaasModern/Feature';
+import UpdateScreen from 'containers/SaasModern/UpdateScreen';
+import TestimonialSection from 'containers/SaasModern/Testimonial';
+import Footer from 'containers/SaasModern/Footer';
+import Service from 'containers/AgencyDigital/Service';
+import TrustedProofSections from 'containers/Crypto/TrustedProof';
 
 const SaasModern = () => {
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Welcome</title>
+          <title>Site Dominion | Grandpa Ron's Project Overview</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -48,12 +48,11 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          <WorkingProcessSection />
           
-          <FeatureSection />
+          <Service />
           <UpdateScreen />
           <PricingSection />
-          <Gallery/>
+          <PartnerSection />
           <TestimonialSection />
           <FaqSection />
           <TrialSection />

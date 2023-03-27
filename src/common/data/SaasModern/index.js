@@ -30,8 +30,13 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'Feature',
+    label: 'Features',
     path: '#feature_section',
+    offset: '0',
+  },
+  {
+    label: 'Process',
+    path: '#process_section',
     offset: '0',
   },
   {
@@ -39,8 +44,9 @@ export const MENU_ITEMS = [
     path: '#pricing_section',
     offset: '0',
   },
+  
   {
-    label: 'Testimonial',
+    label: 'Testimonials',
     path: '#testimonial_section',
     offset: '0',
   },
@@ -427,26 +433,26 @@ export const SCREENSHOTS = [
 
 export const TESTIMONIALS = [
   {
-    title: 'Modern look & trending design',
+    title: 'Google Review',
     review:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    name: 'Jon Doe',
-    designation: 'CEO of Dell Co.',
+      'It was the best customer experience. The staff were very quick, effective, responsible and most of all - Friendly. They did my service very quickly, two-three days. They kept a thourough follow up with me with live updates. They performed the service according to me needs. Would definitely recommend this!',
+    name: 'Jenith S',
+    designation: 'College Student',
     avatar: AuthorOne,
   },
   {
-    title: 'Modern look & trending design',
+    title: 'Google Review',
     review:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur.',
-    name: 'Jon Doe',
-    designation: 'Co Founder of IBM',
+      'Sean is brilliant it was a pleasure to work with him, he has also built me a stunning website  am so chuffed. Thanks',
+    name: 'ShipWreck Cove',
+    designation: 'Founder of ShipWreck Cove',
     avatar: AuthorTwo,
   },
   {
-    title: 'Modern look & trending design',
+    title: 'Google Review',
     review:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    name: 'Jeny Doe',
+      'Absolutely fantastic work. Professional, as well.',
+    name: 'Alexander Evans',
     designation: 'Manager of Hp co.',
     avatar: AuthorThree,
   },

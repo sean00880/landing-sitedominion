@@ -47,7 +47,7 @@ const InfoSection = ({
           <Box {...col} {...textArea} style={{"width":"100%"}}>
             <Heading
               {...title}
-              content="Grandpa Ron's LLC - Landscaping Business In Columbus, Ohio"
+              content="Project Overview"
               style={{"textAlign":"center"}}
             />
             <Text
