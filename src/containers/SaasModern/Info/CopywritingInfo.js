@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/metanetic.png';
+import ImageOne from 'common/assets/image/saasModern/dash-1.png';
 import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
 
 const InfoSection = ({
@@ -47,13 +47,13 @@ const InfoSection = ({
           <Box {...col} {...textArea} style={{"width":"100%"}}>
             <Heading
               {...title}
-              content="Project Overview"
+              content="Online Copywriting That Improves Search Engine Rankings"
               style={{"textAlign":"center"}}
             />
-            <h3>Website Link: <a href="https://alpha-lovat.vercel.app/">https://metanetic.vercel.app/</a></h3>
             <Text
               {...description}
-              content="Site Dominion has been commissioned to develop a website for Metanetic, a social media marketing agency that provides web development, graphic design, and digital marketing as their primary services. The website will be developed using Next JS, a popular React framework that provides an efficient and scalable solution for building complex web applications. The website will serve as a central platform for Metanetic to showcase their services, portfolio, and expertise to potential clients and partners."/>
+              content="Writing targeted, promotional material for service sites, landing pages, category pages, and everything in between is known as website copywriting. It can be easier to draw people to your website and convince them to convert if your website copy is interesting."
+            />
             
           </Box>
           
@@ -65,13 +65,12 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Project Goals"
+              content="What Pages Are Covered?"
             />
             <Text
               {...description}
-              content="The primary goal of the project is to create a visually appealing and user-friendly website that effectively communicates Metanetic's services, brand identity, and values. The website should also be responsive and optimized for search engines, ensuring that potential clients can easily find and access Metanetic's services. Additionally, the website should be built with scalability in mind, allowing for future expansion and updates as the company grows.
-              "/>
-
+              content="No matter the subject, Site Dominion's copywriting service is ideal for producing powerful copy that can be used for your homepage, service pages, about us pages, or any other landing page. Our services are frequently utilized to revamp already-existing web pages or to create content for a brand-new collection of pages."
+            />
             
           </Box>
         </Box>
@@ -82,21 +81,14 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
           <Heading
               {...title}
-              content="Key Features"
+              content="Do You Include Images In Your Content Writing/Management Services?"
             />
             <Text
               {...description}
-              content="Homepage: The homepage will provide an overview of Metanetic's services, portfolio, and team members. It will also include a call-to-action section, encouraging visitors to contact Metanetic for more information or to schedule a consultation."/>
-
-              <Text
-              {...description}
-              content="Services: A dedicated services page will provide detailed information about Metanetic's web development, graphic design, and digital marketing services. Each service will be described in detail, with examples of past projects and client testimonials."/>
-              
-              <Text
-              {...description}
-              content="Portfolio: The portfolio page will showcase Metanetic's past projects, providing visitors with a visual representation of the company's capabilities and expertise. Each project will include a brief description, images, and links to the live websites or marketing campaigns.
-              "/>
-                
+              content="Certainly, we can supply images that are free to use on your websites. Also, we have skilled graphic designers on hand. If necessary, they can assist you with producing unique logos, infographics, and illustrations."
+            />
+           
+            
           </Box>
         </Box>
   
@@ -104,22 +96,25 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow} style={{"flexDirection":"row"}}>
           <Box {...col} {...textArea} style={{"width":"100%"}}>
-          <Text
+          <Heading
+              {...title}
+              content="How Long Does It Take For SEO Rankings To Improve?"
+            />
+            <Text 
               {...description}
-              content="About Us: The About Us page will provide information about Metanetic's history, mission, and team members. This page will also include a section highlighting the company's core values, such as creativity, innovation, and customer satisfaction.
-              "/>
-              <Text
-              {...description}
-              content="Contact Us: A dedicated contact page will provide visitors with multiple ways to contact Metanetic, including a contact form, phone number, email address, and social media links.
-              "/>   
-             <Heading
+              content="Although SEO rankings can increase immediately, it might take 6 months or a year before you notice a noticeable shift. The primary causes of this are the always evolving search engine algorithms and market trends.
+
+              You can relax knowing that we have seasoned SEO experts and online copywriters working for us. Together, they create a content marketing plan that quickly raises your search engine ranks."
+            />
+            <Heading
               {...title}
               content="Conclusion"
             />
             <Text
               {...description}
-              content="The development of the Metanetic website is an exciting opportunity for Site Dominion to showcase our expertise in web development and design. We look forward to working closely with the Metanetic team to create a website that accurately represents their brand and helps them achieve their business goals.
-            "/>
+              content="Our team of web geeks will create website content for you that greatly increases your prospect-to-customer ratio by using the appropriate amount of catchphrases and trigger words. In order to increase your website's visibility on search engines like Google, Bing, Yahoo, and others, your web material will also be search engine optimized. We are the masters of writing site material, regardless of the style you require: funny, direct, straightforward instructive, or enthralling persuading!"
+            />
+            
 
             
           </Box>
@@ -162,7 +157,6 @@ InfoSection.defaultProps = {
   },
   textArea: {
     width: ['100%', '100%', '50%', '53%', '55%'],
-
   },
   imageArea: {
     width: ['50%', '70%', '23%', '25%', '20%'],
@@ -191,7 +185,6 @@ InfoSection.defaultProps = {
     color: '#343d48cc',
     lineHeight: '2',
     mb: '33px',
-    textIndent:"10px",
   },
   button: {
     type: 'button',

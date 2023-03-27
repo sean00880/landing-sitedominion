@@ -154,7 +154,7 @@ export const ContentWrapper = styled.div`
     left: 0;
     width: 100%;
     transition: 0.35s ease-in-out;
-    padding: 30px 0;
+    padding: 0;
     .logo-alt {
       display: none;
     }

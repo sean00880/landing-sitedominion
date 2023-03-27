@@ -20,21 +20,28 @@ const UpdateScreen = ({ secTitleWrapper, secText, button, secHeading }) => {
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="UPDATE" />
-          <Heading {...secHeading} content="Meet our new updated screen" />
+          <Text {...secText} content="Services" />
+          <Heading {...secHeading} content="What's Included?" />
         </Box>
         <Tabs className="update-screen-tab">
+       
           {SCREENSHOTS.map((item, index) => (
+            
             <TabPane
               forceRender={true}
               tab={
+                
                 <>
+                
+               
                   <Icon icon={item.icon} size={24} />
                   {item.title}
+                  
                 </>
               }
               key={index + 1}
             >
+
                
               <NextImage src={item.image} alt={`screenshot-${index + 1}`} />
               <Box style={{ "display": "flex", "flexDirection": "column", "justifyContent": "center", "alignItems":"center"}}>
@@ -74,7 +81,7 @@ UpdateScreen.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '29px'],
+    fontSize: ['29px', '29px'],
     fontWeight: '500',
     color: '#fff',
     letterSpacing: '-0.025em',

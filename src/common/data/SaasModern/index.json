@@ -220,23 +220,23 @@
   ],
   "FOOTER_WIDGET": [
     {
-      "title": "About Us",
+      "title": "Service Links",
       "menuItems": [
         {
-          "url": "#",
-          "text": "Support Center"
+          "url": "/",
+          "text": "Home"
         },
         {
-          "url": "#",
-          "text": "Customer Support"
+          "url": "#feature_section",
+          "text": "Features"
         },
         {
-          "url": "#",
-          "text": "About Us"
+          "url": "/web-deployment",
+          "text": "Website Deployment"
         },
         {
-          "url": "#",
-          "text": "Copyright"
+          "url": "/blog-and-search-engine-optimization",
+          "text": "Blog"
         },
         {
           "url": "#",

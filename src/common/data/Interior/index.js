@@ -405,31 +405,31 @@ export const galleryData = [
     id: 1,
     thumb_url: galleryImg1,
     name: "Grandpa Rons's LLC ",
-    link: 'https://landscaping.sitedominion.com/portfolio-details/grandpa-rons/',
+    link: '/grandpa-rons',
   },
   {
     id: 2,
     thumb_url: galleryImg2,
     name: 'Designation Dump LLC',
-    link: 'https://www.sitedominion.com/portfolio/grandpa-rons-llc/',
+    link: '/designation-dump',
   },
   {
     id: 3,
     thumb_url: galleryImg3,
     name: 'Metanetic',
-    link: 'https://www.sitedominion.com/portfolio/designation-dump-llc/',
+    link: '/metanetic',
   },
   {
     id: 4,
     thumb_url: galleryImg4,
     name: 'Articulate Insurance',
-    link: 'https://www.sitedominion.com/portfolio/articulate-insurance/',
+    link: '/articulate-insurance',
   },
   {
     id: 5,
     thumb_url: galleryImg5,
     name: 'AFJ Productions',
-    link: 'https://www.sitedominion.com/portfolio/afj-productions/',
+    link: '/afj-productions',
   },
 ];
 

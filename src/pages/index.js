@@ -7,8 +7,8 @@ import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
 import dynamic from 'next/dynamic';
-const BannerSection = dynamic(() => import( 'containers/SaasModern/Banner'));
-const Navbar = dynamic(() => import( 'containers/SaasModern/Navbar'));
+import BannerSection from 'containers/SaasModern/Banner';
+import Navbar from 'containers/SaasModern/Navbar';
 const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
 const PricingSection = dynamic(() => import('containers/SaasModern/Pricing'));
 const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
@@ -27,7 +27,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Welcome</title>
+          <title>Site Dominion | High Converting Websites For All Niches</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -48,15 +48,16 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          <WorkingProcessSection />
+          
           
           <FeatureSection />
+          <WorkingProcessSection />
           <UpdateScreen />
           <PricingSection />
           <Gallery/>
           <TestimonialSection />
           <FaqSection />
-          <TrialSection />
+          
           <Footer />
         </ContentWrapper>
       </Fragment>

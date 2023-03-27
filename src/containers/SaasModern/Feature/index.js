@@ -6,7 +6,7 @@ import Heading from 'common/components/Heading';
 import FeatureBlock from 'common/components/FeatureBlock';
 import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
-
+import Image from 'next/image';
 import { FEATURES } from 'common/data/SaasModern';
 
 const FeatureSection = ({
@@ -27,7 +27,7 @@ const FeatureSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="FEATURES" />
-          <Heading {...secHeading} content="Why you choose Our Plugin" />
+          <Heading {...secHeading} content="Why Choose Site Dominion?" />
         </Box>
 
         <Box {...row}>
@@ -35,8 +35,9 @@ const FeatureSection = ({
             <Box {...col} key={`feature-item-${index}`}>
               <FeatureBlock
                 icon={
-                  <NextImage
+                  <Image width={70} height={70}
                     src={item.icon}
+                    loading="lazy"
                     alt={`feature-item-icon-${index + 1}`}
                   />
                 }

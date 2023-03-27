@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/metanetic.png';
+import ImageOne from 'common/assets/image/saasModern/afj.png';
 import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
 
 const InfoSection = ({
@@ -38,6 +38,7 @@ const InfoSection = ({
                 <NextImage src={ImageOne} alt="Info Image One" />
               </Fade>
             </Card>
+            
           </Box>
         </Box>
       </Container>
@@ -50,10 +51,10 @@ const InfoSection = ({
               content="Project Overview"
               style={{"textAlign":"center"}}
             />
-            <h3>Website Link: <a href="https://alpha-lovat.vercel.app/">https://metanetic.vercel.app/</a></h3>
+            <h3>Website Link: <a href="https://afj-productions.vercel.app/">https://afj-productions.vercel.app/</a></h3>
             <Text
               {...description}
-              content="Site Dominion has been commissioned to develop a website for Metanetic, a social media marketing agency that provides web development, graphic design, and digital marketing as their primary services. The website will be developed using Next JS, a popular React framework that provides an efficient and scalable solution for building complex web applications. The website will serve as a central platform for Metanetic to showcase their services, portfolio, and expertise to potential clients and partners."/>
+              content="Welcome to the website overview for A Film Junkie Productions, a video production studio. Here at Site Dominion, we are thrilled to have been able to work with A Film Junkie Productions to develop their new business website using React, Vercel, Github Pages, and Next.JS."/>
             
           </Box>
           
@@ -63,15 +64,15 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow}>
           <Box {...col} {...textArea}>
-            <Heading
-              {...title}
-              content="Project Goals"
-            />
             <Text
               {...description}
-              content="The primary goal of the project is to create a visually appealing and user-friendly website that effectively communicates Metanetic's services, brand identity, and values. The website should also be responsive and optimized for search engines, ensuring that potential clients can easily find and access Metanetic's services. Additionally, the website should be built with scalability in mind, allowing for future expansion and updates as the company grows.
+              content="Our team of web developers worked closely with A Film Junkie Productions to ensure that their website was not only visually appealing, but also functional and user-friendly. We chose to use React, a popular JavaScript library for building user interfaces, to ensure that the website was responsive and easy to navigate.
               "/>
 
+            <Heading
+              {...title}
+              content="Technology Stack"
+            />
             
           </Box>
         </Box>
@@ -80,22 +81,9 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow}>
           <Box {...col} {...textArea}>
-          <Heading
-              {...title}
-              content="Key Features"
-            />
             <Text
               {...description}
-              content="Homepage: The homepage will provide an overview of Metanetic's services, portfolio, and team members. It will also include a call-to-action section, encouraging visitors to contact Metanetic for more information or to schedule a consultation."/>
-
-              <Text
-              {...description}
-              content="Services: A dedicated services page will provide detailed information about Metanetic's web development, graphic design, and digital marketing services. Each service will be described in detail, with examples of past projects and client testimonials."/>
-              
-              <Text
-              {...description}
-              content="Portfolio: The portfolio page will showcase Metanetic's past projects, providing visitors with a visual representation of the company's capabilities and expertise. Each project will include a brief description, images, and links to the live websites or marketing campaigns.
-              "/>
+              content="To ensure that the website was fast and reliable, we utilized Vercel, a cloud platform for serverless deployment, and Github Pages, a static site hosting service. These technologies allowed us to deploy the website quickly and easily, while also ensuring that it was scalable and could handle large amounts of traffic."/>
                 
           </Box>
         </Box>
@@ -104,23 +92,30 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow} style={{"flexDirection":"row"}}>
           <Box {...col} {...textArea} style={{"width":"100%"}}>
+          <Heading
+              {...title}
+              content="Key Features"
+            />
           <Text
               {...description}
-              content="About Us: The About Us page will provide information about Metanetic's history, mission, and team members. This page will also include a section highlighting the company's core values, such as creativity, innovation, and customer satisfaction.
-              "/>
-              <Text
+              content="One of the key features of the website is its use of Next.JS, a popular React framework that allows for server-side rendering and automatic code splitting. This allowed us to build a dynamic website that is optimized for performance and SEO, while also making it easy to manage and update content."/>
+            
+            <Heading
+              {...title}
+              content="Lead Generation API"
+            />
+          <Text
               {...description}
-              content="Contact Us: A dedicated contact page will provide visitors with multiple ways to contact Metanetic, including a contact form, phone number, email address, and social media links.
-              "/>   
-             <Heading
+              content="Finally, to help A Film Junkie Productions generate leads and grow their business, we integrated Email JS, a powerful email automation platform. This allows visitors to the website to easily submit inquiries and contact the studio, while also enabling A Film Junkie Productions to manage and track leads more effectively."/>
+            
+            <Heading
               {...title}
               content="Conclusion"
             />
-            <Text
+          <Text
               {...description}
-              content="The development of the Metanetic website is an exciting opportunity for Site Dominion to showcase our expertise in web development and design. We look forward to working closely with the Metanetic team to create a website that accurately represents their brand and helps them achieve their business goals.
-            "/>
-
+              content="In summary, Site Dominion is proud to have been able to work with A Film Junkie Productions to develop their new business website using the latest technologies, including React, Vercel, Github Pages, Next.JS, and Email JS. We are confident that the new website will help A Film Junkie Productions to grow their business and achieve their goals."/>
+            
             
           </Box>
         </Box>

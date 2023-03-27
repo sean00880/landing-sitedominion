@@ -9,7 +9,7 @@ import Button from 'common/components/Button';
 import Card from 'common/components/Card';
 import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
-
+import Image from 'next/image';
 import InfoSectionWrapper from './info.style';
 import ImageOne from 'common/assets/image/saasModern/dash-7.png';
 import ImageTwo from 'common/assets/image/saasModern/dash-8.png';
@@ -35,12 +35,12 @@ const InfoSection = ({
         <Box {...col} {...imageArea} className="image_area">
             <Card {...imageWrapper} {...imageWrapperOne}>
               <Fade left>
-                <NextImage src={ImageOne} alt="Info Image One" />
+                <Image src={ImageOne} alt="Info Image One" width={484} height={346} loading="lazy"/>
               </Fade>
             </Card>
             <Card {...imageWrapper} {...imageWrapperTwo}>
               <Fade bottom>
-                <NextImage src={ImageTwo} alt="Info Image Two" />
+                <Image src={ImageTwo} alt="Info Image Two" width={484} height={346}loading="lazy" />
               </Fade>
             </Card>
           </Box>

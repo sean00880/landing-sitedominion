@@ -8,6 +8,7 @@ import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
 import NextImage from 'common/components/NextImage';
+import Image from 'next/image';
 import Container from 'common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
@@ -32,22 +33,14 @@ const BannerSection = ({
       <Container>
         <Box {...row}>
           <Box {...contentWrapper}>
-            <DiscountWrapper>
-              <DiscountLabel>
-                <Text {...discountAmount} content="25% Save" />
-                <Text
-                  {...discountText}
-                  content="for first month trail version"
-                />
-              </DiscountLabel>
-            </DiscountWrapper>
+            
             <Heading
               {...title}
-              content="Ultimate Platform to monitor your best workflow."
+              content="Your One-Stop-Shop for Exceptional Websites"
            style={{"textShadow": "2px 3px 4px black"}} />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!"
+              content="Site Dominion is the perfect option if you're seeking for a web development partner who can assist you in growing your company."
             />
             <Box {...buttonWrapper}>
               <Link href="#">
@@ -55,21 +48,12 @@ const BannerSection = ({
                   <Button {...fillButton} title="FREE TRIAL" />
                 </a>
               </Link>
-              <Link href="#">
-                <a>
-                  <Button
-                    {...button}
-                    title="WATCH VIDEO"
-                    icon={<Icon icon={ic_play_circle_filled} size={30} />}
-                    iconPosition="left"
-                  />
-                </a>
-              </Link>
+              
             </Box>
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
-              <NextImage src={BannerImage} alt="banner image" />
+              <Image src={BannerImage} alt="banner image" width={1000} height={675}/>
             </Fade>
           </Box>
         </Box>

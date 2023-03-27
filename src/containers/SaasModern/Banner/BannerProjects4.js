@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
-import BannerImage from 'common/assets/image/saasModern/SEO.png';
+import BannerImage from 'common/assets/image/saasModern/articulateinsurance2.png';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
 const BannerSection = ({
@@ -34,11 +34,11 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <Heading
               {...title}
-              content="Designation Dump LLC | Junk Removal in Canal Winchester, OH"
+              content="Articulate Insurance - Insurance Agency"
             />
             <Text
               {...description}
-              content="Designation Dump is a professional junk removal service that helps Grandpa Ron's landscaping and lawncare business get rid of unwanted junk."
+              content="Site Dominion created a professional website for Articulate Insurance, an insurance agency based in Fairfax, Virginia."
             />
           </Box>
           <Box {...imageWrapper}>

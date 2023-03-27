@@ -108,14 +108,14 @@ const PricingSection = ({
           />
           <PricingButtonWrapper>
             <Button
-              title="Monthly Plan"
+              title="Monthly"
               className={activeStatus ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: MONTHLY_PRICING_TABLE, active: true })
               }
             />
             <Button
-              title="Annual Plan"
+              title="One-Time"
               className={activeStatus === false ? 'active-item' : ''}
               onClick={() =>
                 setState({ data: YEARLY_PRICING_TABLE, active: false })
@@ -234,7 +234,7 @@ PricingSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '29px'],
+    fontSize: ['29px', '29px'],
     fontWeight: '500',
     color: '#0f2137',
     letterSpacing: '-0.025em',
@@ -247,7 +247,7 @@ PricingSection.defaultProps = {
     pl: '15px',
   },
   nameStyle: {
-    fontSize: ['20px', '20px', '22px', '22px', '22px'],
+    fontSize: ['27px', '27px', '27px', '29px', '29px'],
     fontWeight: '500',
     color: 'headingColor',
     letterSpacing: '-0.025em',

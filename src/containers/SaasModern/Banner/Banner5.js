@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
-import BannerImage from 'common/assets/image/saasModern/SEO.png';
+import BannerImage from 'common/assets/image/saasModern/dash-6.png';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
 const BannerSection = ({
@@ -34,11 +34,11 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <Heading
               {...title}
-              content="Designation Dump LLC | Junk Removal in Canal Winchester, OH"
+              content="Website Copywriting & Content Management"
             />
             <Text
               {...description}
-              content="Designation Dump is a professional junk removal service that helps Grandpa Ron's landscaping and lawncare business get rid of unwanted junk."
+              content="Spread the word about your story by choosing Site Dominion to setup your blog. Make a statement with a blog website that has been expertly designed and can be modified to meet your brand."
             />
           </Box>
           <Box {...imageWrapper}>
@@ -81,8 +81,7 @@ BannerSection.defaultProps = {
     fontWeight: '700',
     color: '#fff',
     letterSpacing: '-0.025em',
-    mt: ['30px', '33px', '33px', '37px', '39px'],
-    mb: ['30px', '33px', '33px', '37px', '39px'],
+    mb: ['20px', '25px', '25px', '25px', '25px'],
     lineHeight: '1.2',
     textAlign: 'center',
   },

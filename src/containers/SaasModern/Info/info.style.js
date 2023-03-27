@@ -10,7 +10,7 @@ const InfoSectionWrapper = styled.section`
     padding: 0px 0 0px 0;
   }
   @media (max-width: 1300px) {
-    padding: 150px 0 150px 0;
+    padding: 0;
   }
   @media (max-width: 1199px) {
     padding: 100px 0 100px 0;

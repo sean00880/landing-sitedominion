@@ -38,8 +38,8 @@ const FaqSection = ({
     <Box {...sectionWrapper} id="faq_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="FREQUENTLY ASK QUESTION" />
-          <Heading {...secHeading} content="Want to ask something from us?" />
+          <Text {...secText} content="FREQUENTLY ASK QUESTIONS" />
+          <Heading {...secHeading} content="Answers to some commonly asked questions" />
         </Box>
         <Box {...row}>
           <Box {...col}>
@@ -78,13 +78,7 @@ const FaqSection = ({
                 </>
               </Accordion>
             </FaqWrapper>
-            <Box {...buttonWrapper}>
-              <Link href="#">
-                <a>
-                  <Button {...button} title="EXPLORE FORUM" />
-                </a>
-              </Link>
-            </Box>
+            
           </Box>
         </Box>
       </Container>
@@ -126,7 +120,7 @@ FaqSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '29px'],
+    fontSize: ['29px', '29px'],
     fontWeight: '500',
     color: '#0f2137',
     letterSpacing: '-0.025em',
@@ -142,7 +136,7 @@ FaqSection.defaultProps = {
     width: ['100%', '100%', '75%', '75%'],
   },
   title: {
-    fontSize: ['16px', '19px'],
+    fontSize: ['23px', '25px'],
     fontWeight: '400',
     color: 'headingColor',
     letterSpacing: '-0.025em',

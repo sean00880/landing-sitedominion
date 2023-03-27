@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
-import BannerImage from 'common/assets/image/saasModern/SEO.png';
+import BannerImage from 'common/assets/image/saasModern/grandparons2.png';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
 const BannerSection = ({
@@ -81,7 +81,8 @@ BannerSection.defaultProps = {
     fontWeight: '700',
     color: '#fff',
     letterSpacing: '-0.025em',
-    mb: ['20px', '25px', '25px', '25px', '25px'],
+    mt: ['30px', '33px', '33px', '37px', '39px'],
+    mb: ['30px', '33px', '33px', '37px', '39px'],
     lineHeight: '1.2',
     textAlign: 'center',
   },

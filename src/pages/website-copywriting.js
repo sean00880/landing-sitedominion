@@ -7,14 +7,14 @@ import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
 
-import BannerSection from 'containers/SaasModern/Banner/BannerProjects3';
+import BannerSection from 'containers/SaasModern/Banner/Banner5';
 import Navbar from 'containers/SaasModern/Navbar';
 import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
 import PricingSection from 'containers/SaasModern/Pricing';
 import PartnerSection from 'containers/SaasModern/Partner';
 import FaqSection from 'containers/SaasModern/Faq';
 import TrialSection from 'containers/SaasModern/Trial';
-import InfoSection from 'containers/SaasModern/Info/Project3Info';
+import InfoSection from 'containers/SaasModern/Info/CopywritingInfo';
 import FeatureSection from 'containers/SaasModern/Feature';
 import UpdateScreen from 'containers/SaasModern/UpdateScreen';
 import TestimonialSection from 'containers/SaasModern/Testimonial';
@@ -27,7 +27,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Digital Marketing Agency Project Overview</title>
+          <title>Site Dominion | Website Copywriting</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -48,14 +48,13 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          <FeatureSection/>
-          <WorkingProcessSection/>
+          
+          <Service />
           <UpdateScreen />
           <PricingSection />
-          
-          <TestimonialSection />
+       
           <FaqSection />
-          
+         
           <Footer />
         </ContentWrapper>
       </Fragment>

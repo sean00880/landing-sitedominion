@@ -32,43 +32,43 @@ export const MENU_ITEMS = [
   {
     label: 'Features',
     path: '#feature_section',
-    offset: '0',
+    offset: '140',
   },
   {
     label: 'Process',
     path: '#process_section',
-    offset: '0',
+    offset: '160',
   },
   {
     label: 'Pricing',
     path: '#pricing_section',
-    offset: '0',
+    offset: '30',
   },
   
   {
     label: 'Testimonials',
     path: '#testimonial_section',
-    offset: '0',
+    offset: '80',
   },
   {
     label: 'FAQ',
     path: '#faq_section',
-    offset: '0',
+    offset: '140',
   },
 ];
 
 export const PROCESS_ITEMS = [
   {
     image: Process1,
-    title: 'Browse Features',
+    title: 'Explore',
     description:
-      'Browse our website to see the different features and services we offer for web development.',
+      'Explore our website and identify a package that fits your needs.',
   },
   {
     image: Process2,
     title: 'Choose Package',
     description:
-      'Choose a package that fits your requirements and budget.',
+      'Select the package and complete payment.',
   },
   {
     image: Process3,
@@ -166,7 +166,7 @@ export const YEARLY_PRICING_TABLE = [
     name: 'Basic Website',
     description: 'For Individuals',
     price: '$399.99',
-    priceLabel: 'Per month',
+    priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
     url: '#',
     listItems: [
@@ -188,7 +188,7 @@ export const YEARLY_PRICING_TABLE = [
     name: 'Business Account',
     description: 'For Small Businesses',
     price: '$699.99',
-    priceLabel: 'Per month',
+    priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
     url: '#',
     listItems: [
@@ -213,7 +213,7 @@ export const YEARLY_PRICING_TABLE = [
     name: 'Premium Account',
     description: 'For Enterprise Businesses ',
     price: '$899.99',
-    priceLabel: 'Per month',
+    priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
     url: '#',
     listItems: [
@@ -271,25 +271,29 @@ export const FOOTER_WIDGET = [
     title: 'About Us',
     menuItems: [
       {
-        url: '#',
-        text: 'Support Center',
+        url: '/',
+        text: 'Home',
       },
       {
-        url: '#',
-        text: 'Customer Support',
+        url: '#feature_section',
+        text: 'Features',
       },
       {
-        url: '#',
-        text: 'About Us',
+        url: '#process_section',
+        text: 'Process',
       },
       {
-        url: '#',
-        text: 'Copyright',
+        url: '#pricing_section',
+        text: 'Pricing',
       },
       {
-        url: '#',
-        text: 'Popular Campaign',
+        url: '#testimonials_section',
+        text: 'Testimonials',
       },
+      {
+        url: '#faq_section',
+        text: 'FAQ',
+      }
     ],
   },
   {
@@ -307,68 +311,15 @@ export const FOOTER_WIDGET = [
         url: '#',
         text: 'Terms & Conditions',
       },
-      {
-        url: '#',
-        text: 'Site Map',
-      },
-      {
-        url: '#',
-        text: 'Store Hours',
-      },
     ],
   },
-  {
-    title: 'My Account',
-    menuItems: [
-      {
-        url: '#',
-        text: 'Press inquiries',
-      },
-      {
-        url: '#',
-        text: 'Social media directories',
-      },
-      {
-        url: '#',
-        text: 'Images & B-roll',
-      },
-      {
-        url: '#',
-        text: 'Permissions',
-      },
-      {
-        url: '#',
-        text: 'Speaker requests',
-      },
-    ],
-  },
-  {
-    title: 'Policy',
-    menuItems: [
-      {
-        url: '#',
-        text: 'Application security',
-      },
-      {
-        url: '#',
-        text: 'Software principles',
-      },
-      {
-        url: '#',
-        text: 'Unwanted software policy',
-      },
-      {
-        url: '#',
-        text: 'Responsible supply chain',
-      },
-    ],
-  },
+
 ];
 
 export const FEATURES = [
   {
     icon: FeatureIcon1,
-    title: 'Priority On Conversions',
+    title: 'Priority On Outreach',
     description:
       "Site Dominion's 'Instant Quote' API and inherent on-page SEO features allow for customer acquisition with great efficiency.",
   },

@@ -6,7 +6,6 @@ import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
-
 import BannerSection from 'containers/SaasModern/Banner/BannerProjects2';
 import Navbar from 'containers/SaasModern/Navbar';
 import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
@@ -27,7 +26,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Grandpa Ron's Project Overview</title>
+          <title>Site Dominion | Junk Removal Business Project Overview</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -48,14 +47,14 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          
-          <Service />
+          <FeatureSection/>
+          <WorkingProcessSection/>
           <UpdateScreen />
           <PricingSection />
-          <PartnerSection />
+          
           <TestimonialSection />
           <FaqSection />
-          <TrialSection />
+          
           <Footer />
         </ContentWrapper>
       </Fragment>

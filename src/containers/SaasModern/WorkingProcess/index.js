@@ -23,10 +23,10 @@ const WorkingProcessSection = ({
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="WORKING PROCESS" />
+          <Text {...secText} content="PROCESS" />
           <Heading
             {...secHeading}
-            content="Our Featured Service that We Provide"
+            content="Simple 3-Step Process"
           />
         </Box>
 
@@ -87,7 +87,7 @@ WorkingProcessSection.defaultProps = {
   },
   secHeading: {
     textAlign: 'center',
-    fontSize: ['20px', '29px'],
+    fontSize: ['29px', '29px'],
     fontWeight: '500',
     color: '#0f2137',
     letterSpacing: '-0.025em',

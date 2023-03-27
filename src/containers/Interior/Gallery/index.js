@@ -36,15 +36,15 @@ const Gallery = () => {
           {galleryData.map((item) => (
             <GlideSlide key={`gallery_key${item.id}`}>
               <GalleryCard>
-                
-                  <a href={item.link}>
+                <Link href={item.link}>
+                  <a>
                     <NextImage src={item.thumb_url} alt={item.name} />
                     <Button className="read_more__btn">
                       <span className="arrow"></span>
                       {item.name}
                     </Button>
                   </a>
-                
+                </Link>
               </GalleryCard>
             </GlideSlide>
           ))}

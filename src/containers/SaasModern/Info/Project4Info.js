@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/metanetic.png';
+import ImageOne from 'common/assets/image/saasModern/articulateinsurance.png';
 import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
 
 const InfoSection = ({
@@ -38,6 +38,7 @@ const InfoSection = ({
                 <NextImage src={ImageOne} alt="Info Image One" />
               </Fade>
             </Card>
+            
           </Box>
         </Box>
       </Container>
@@ -50,10 +51,10 @@ const InfoSection = ({
               content="Project Overview"
               style={{"textAlign":"center"}}
             />
-            <h3>Website Link: <a href="https://alpha-lovat.vercel.app/">https://metanetic.vercel.app/</a></h3>
+            <h3>Website Link: <a href="https://articulateinsurance.vercel.app/">https://articulateinsurance.vercel.app/</a></h3>
             <Text
               {...description}
-              content="Site Dominion has been commissioned to develop a website for Metanetic, a social media marketing agency that provides web development, graphic design, and digital marketing as their primary services. The website will be developed using Next JS, a popular React framework that provides an efficient and scalable solution for building complex web applications. The website will serve as a central platform for Metanetic to showcase their services, portfolio, and expertise to potential clients and partners."/>
+              content="Articulate Insurance is a prototype project built by Site Dominion, a web development agency, to showcase our skills in creating custom websites for insurance companies. The project was built using Next.js, a powerful web framework that provides server-side rendering and static site generation capabilities. The website features a modern and clean design that reflects the business's values and goals."/>
             
           </Box>
           
@@ -65,11 +66,11 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Project Goals"
+              content="Design"
             />
             <Text
               {...description}
-              content="The primary goal of the project is to create a visually appealing and user-friendly website that effectively communicates Metanetic's services, brand identity, and values. The website should also be responsive and optimized for search engines, ensuring that potential clients can easily find and access Metanetic's services. Additionally, the website should be built with scalability in mind, allowing for future expansion and updates as the company grows.
+              content="The website design features a blue and white color scheme, which is commonly associated with professionalism and trustworthiness. The homepage features a hero image of a happy family, along with a prominent call-to-action button that encourages users to get a quote. The website's services page provides detailed information about the different insurance services offered by Articulate Insurance, along with pricing information. The website also has a blog section where the business can share news and insights with its customers. In addition, the website has a contact page that allows users to send a message directly to the business.
               "/>
 
             
@@ -82,20 +83,11 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
           <Heading
               {...title}
-              content="Key Features"
+              content="Functionality"
             />
             <Text
               {...description}
-              content="Homepage: The homepage will provide an overview of Metanetic's services, portfolio, and team members. It will also include a call-to-action section, encouraging visitors to contact Metanetic for more information or to schedule a consultation."/>
-
-              <Text
-              {...description}
-              content="Services: A dedicated services page will provide detailed information about Metanetic's web development, graphic design, and digital marketing services. Each service will be described in detail, with examples of past projects and client testimonials."/>
-              
-              <Text
-              {...description}
-              content="Portfolio: The portfolio page will showcase Metanetic's past projects, providing visitors with a visual representation of the company's capabilities and expertise. Each project will include a brief description, images, and links to the live websites or marketing campaigns.
-              "/>
+              content="The website has several features that make it easy for users to learn about the business's insurance services and contact them for a quote. The homepage features a prominent call-to-action button that encourages users to get a quote. The website's services page provides detailed information about the different insurance services offered by Articulate Insurance, along with pricing information. The website also has a blog section where the business can share news and insights with its customers. In addition, the website has a contact page that allows users to send a message directly to the business."/>
                 
           </Box>
         </Box>
@@ -104,22 +96,22 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow} style={{"flexDirection":"row"}}>
           <Box {...col} {...textArea} style={{"width":"100%"}}>
+          <Heading
+              {...title}
+              content="Technology Stack"
+            />
           <Text
               {...description}
-              content="About Us: The About Us page will provide information about Metanetic's history, mission, and team members. This page will also include a section highlighting the company's core values, such as creativity, innovation, and customer satisfaction.
-              "/>
-              <Text
-              {...description}
-              content="Contact Us: A dedicated contact page will provide visitors with multiple ways to contact Metanetic, including a contact form, phone number, email address, and social media links.
-              "/>   
-             <Heading
+              content="Site Dominion used Next.js as the web framework for the project. Next.js is a powerful web framework that provides server-side rendering and static site generation capabilities, which allows for faster page loading times and improved SEO. The website was styled with CSS, and the content was managed with a headless CMS, allowing for easy updates and changes. "/>
+            
+            <Heading
               {...title}
               content="Conclusion"
             />
-            <Text
+          <Text
               {...description}
-              content="The development of the Metanetic website is an exciting opportunity for Site Dominion to showcase our expertise in web development and design. We look forward to working closely with the Metanetic team to create a website that accurately represents their brand and helps them achieve their business goals.
-            "/>
+              content="Articulate Insurance is a prototype project built by Site Dominion to showcase our skills in creating custom websites for insurance companies. The website's design reflects the business's values and goals, and its functionality makes it easy for users to learn about the business's insurance services and contact them for a quote. The use of Next.js allowed Site Dominion to build a performant and flexible website that will help Articulate Insurance attract new customers and grow their business. The website's headless CMS also allows for easy updates and changes, ensuring that the website remains up-to-date with the latest information."/>
+            
 
             
           </Box>

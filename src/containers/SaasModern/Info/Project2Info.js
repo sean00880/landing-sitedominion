@@ -11,7 +11,7 @@ import NextImage from 'common/components/NextImage';
 import Container from 'common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/dash-1.png';
+import ImageOne from 'common/assets/image/saasModern/designationdumpllc.png';
 import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
 
 const InfoSection = ({
@@ -50,6 +50,7 @@ const InfoSection = ({
               content="Project Overview"
               style={{"textAlign":"center"}}
             />
+            <h3>Website Link: <a href="https://designationdumpllc.com/">https://www.designationdumpllc.com/</a></h3>
             <Text
               {...description}
               content="Site Dominion was approached by Designation Dump LLC, a junk removal business, to create a new website for their business."/>
