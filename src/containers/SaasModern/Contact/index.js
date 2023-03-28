@@ -19,7 +19,7 @@ import { Icon } from 'react-icons-kit';
 import { plus } from 'react-icons-kit/entypo/plus';
 import { minus } from 'react-icons-kit/entypo/minus';
 
-import FaqWrapper from './faq.style';
+import FaqWrapper from '../Faq/faq.style';
 import { FAQ_DATA } from 'common/data/SaasModern';
 
 const FaqSection = ({
@@ -38,45 +38,70 @@ const FaqSection = ({
     <Box {...sectionWrapper} id="faq_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="FREQUENTLY ASK QUESTIONS" />
-          <Heading {...secHeading} content="Answers to some commonly asked questions" />
+          <Text {...secText} content="CONTACT US" />
+          <Heading {...secHeading} content="Contact us for a custom quote (or anything else.)" />
         </Box>
         <Box {...row}>
           <Box {...col}>
             <FaqWrapper>
-              <Accordion>
-                <>
-                  {FAQ_DATA.map((accordionItem, index) => (
-                    <AccordionItem
-                      className="accordion_item"
-                      key={`accordion-${index}`}
-                      expanded={accordionItem.expend}
-                    >
-                      <>
-                        <AccordionTitle className="accordion_title">
-                          <>
-                            <Heading {...title} content={accordionItem.title} />
-                            <IconWrapper>
-                              <OpenIcon>
-                                <Icon icon={minus} size={18} />
-                              </OpenIcon>
-                              <CloseIcon>
-                                <Icon icon={plus} size={18} />
-                              </CloseIcon>
-                            </IconWrapper>
-                          </>
-                        </AccordionTitle>
-                        <AccordionBody className="accordion_body">
-                          <Text
-                            {...description}
-                            content={accordionItem.description}
-                          />
-                        </AccordionBody>
-                      </>
-                    </AccordionItem>
-                  ))}
-                </>
-              </Accordion>
+            <div className="content_holder">
+								<div className="list">
+				<div className="contact_left">
+									<h3>-- Prefer cusotm pricing instead? Get Your Instant <span>FREE</span> Quote! --</h3>
+									<hr />
+									<div className="empty_notice"><span style={{'color':'#b73834'}}>Please Fill Required Fields</span></div>
+									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="frenifyteam@gmail.com">
+
+
+										{/* Don't remove below code in avoid to work contact form properly.
+									You can chance dat-success value with your one. It will be used when user will try to contact via contact form and will get success message. */}
+
+										<div className="success" data-success="Your message has been received, we will contact you soon."></div>
+										
+										{/*  */}
+										<div className="items">
+											Name:
+											<div className="item">
+												
+												<input id="name" type="text" placeholder="Name" />
+											</div>
+											Contact Information:
+											<div className="item">
+												
+												<input id="email" type="email" placeholder="Email" />
+											</div>
+											<div className="item">
+												<input id="name" type="text" placeholder="Your Address [1234, Main Street, CA - 12345]" />
+											</div>
+											<div className="item">
+												
+													Service: <br></br>
+													<select type="select" style={{"fontSize":"23px","fontFamily":"Smooch Sans"}}>
+														<option value="Web Design">Web Design & Development</option>
+														<option value="Web Deployment">Website Deployment</option>
+                            <option value="Blog">Blog</option>
+														<option value="SEO">SEO</option>
+														<option value="Website Copywriting">Website Copywriting</option>
+													</select>
+													
+												
+											</div>
+											
+										</div>
+										<hr />
+										<div className="items">
+											<div className="item">
+												Brief description of your requirements:
+												<textarea id="message" placeholder="Message"></textarea>
+											</div>
+											<div className="button">
+												<Link href="#"><a id="send_message">SUBMIT</a></Link>
+											</div>
+										</div>
+									</form>
+								</div>
+				</div>
+                                </div>
             </FaqWrapper>
             
           </Box>
@@ -115,7 +140,7 @@ FaqSection.defaultProps = {
     fontSize: '21px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2a2323',
+    color: '#4445a0',
     mb: '5px',
   },
   secHeading: {

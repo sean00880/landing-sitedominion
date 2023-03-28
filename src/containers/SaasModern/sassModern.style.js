@@ -172,7 +172,7 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: #030401;
+            color: #dfd485;
           }
         }
         a {
@@ -183,7 +183,7 @@ export const ContentWrapper = styled.div`
           color: #fff;
           transition: 0.15s ease-in-out;
           &:hover {
-            color: #030401;
+            color: #dfd485;
           }
         }
       }

@@ -82,7 +82,7 @@ WorkingProcessSection.defaultProps = {
     fontSize: '21px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#b5322e',
+    color: '#ffac00',
     mb: '5px',
   },
   secHeading: {

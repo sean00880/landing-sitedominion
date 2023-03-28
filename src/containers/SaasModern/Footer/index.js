@@ -32,11 +32,11 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
-            <Text content="+479-443-9334" {...textStyle} />
+            <Text content="service@sitedominion.com" {...textStyle} />
+            <Text content="Ashburn, Virginia - 20147" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
-          <Box {...colTwo}>
+          <Box {...colTwo} style={{"display":"flex","justifyContent":"center"}}>
             {FOOTER_WIDGET.map((widget, index) => (
               <Box className="col" {...col} key={`footer-widget-${index}`}>
                 <Heading content={widget.title} {...titleStyle} />

@@ -8,6 +8,7 @@ import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
 import dynamic from 'next/dynamic';
 import BannerSection from 'containers/SaasModern/Banner';
+const ContactSection = dynamic(() => import('containers/SaasModern/Contact'));
 import Navbar from 'containers/SaasModern/Navbar';
 const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
 const PricingSection = dynamic(() => import('containers/SaasModern/Pricing'));
@@ -54,6 +55,7 @@ const SaasModern = () => {
           <WorkingProcessSection />
           <UpdateScreen />
           <PricingSection />
+          <ContactSection/>
           <Gallery/>
           <TestimonialSection />
           <FaqSection />

@@ -313,7 +313,8 @@ export const FOOTER_WIDGET = [
       },
     ],
   },
-
+  
+  
 ];
 
 export const FEATURES = [

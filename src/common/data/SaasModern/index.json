@@ -218,6 +218,15 @@
       "description": "We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us ."
     }
   ],
+  "contact_info": [
+    {
+      "title": "Contact info",
+      "address": "Mohakhali DOHS, Amsterdam, Netherlands",
+      "phone": "+31 62 19 22 705",
+      "openingTime": "7 Days - 8am - 10pm",
+      "email": "info@redqteam.com"
+    }
+  ],
   "FOOTER_WIDGET": [
     {
       "title": "Service Links",

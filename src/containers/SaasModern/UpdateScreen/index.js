@@ -20,7 +20,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, button, secHeading }) => {
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="Services" />
+          <Text {...secText} content="SERVICES" />
           <Heading {...secHeading} content="What's Included?" />
         </Box>
         <Tabs className="update-screen-tab">

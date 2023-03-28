@@ -8,7 +8,6 @@ import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
 import NextImage from 'common/components/NextImage';
-import Image from 'next/image';
 import Container from 'common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
@@ -36,16 +35,16 @@ const BannerSection = ({
             
             <Heading
               {...title}
-              content="Your One-Stop-Shop for Exceptional Websites"
-           style={{"textShadow": "2px 3px 4px black"}} />
+              content="Your One-Stop-Shop for Truly Exceptional Websites"
+            />
             <Text
               {...description}
-              content="Site Dominion is the perfect option if you're seeking for a web development partner who can assist you in growing your company."
+              content="Site Dominion, your go-to web development company, can help you unleash the power of your online presence. We Help Your Business Rule the Digital World From Design to Deployment!"
             />
             <Box {...buttonWrapper}>
-              <Link href="#">
+              <Link href="#pricing_section">
                 <a>
-                  <Button {...fillButton} title="FREE TRIAL" />
+                  <Button {...fillButton} title="Get Started" />
                 </a>
               </Link>
               
@@ -53,7 +52,7 @@ const BannerSection = ({
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
-              <Image src={BannerImage} alt="banner image" width={1000} height={675}/>
+              <NextImage src={BannerImage} alt="banner image" />
             </Fade>
           </Box>
         </Box>
@@ -87,15 +86,13 @@ BannerSection.defaultProps = {
     mb: '40px',
   },
   title: {
-    fontSize: ['29px', '32px', '40px', '42px', '46px'],
+    fontSize: ['24px', '32px', '40px', '42px', '46px'],
     fontWeight: '700',
     color: '#fff',
+    letterSpacing: '-0.025em',
     mb: ['20px', '25px', '25px', '25px', '25px'],
     lineHeight: '1.2',
     textAlign: 'center',
-    
-    letterSpacing: '1px',
-  
   },
   description: {
     fontSize: ['15px', '16px', '16px', '16px', '16px'],
@@ -105,7 +102,7 @@ BannerSection.defaultProps = {
     textAlign: 'center',
   },
   discountAmount: {
-    fontSize: ['13px', '21px', '21px', '21px', '21px'],
+    fontSize: ['13px', '14px', '14px', '14px', '14px'],
     fontWeight: '700',
     color: '#00865b',
     mb: 0,
@@ -113,7 +110,7 @@ BannerSection.defaultProps = {
     mr: '0.4em',
   },
   discountText: {
-    fontSize: ['13px', '21px', '21px', '21px', '21px'],
+    fontSize: ['13px', '14px', '14px', '14px', '14px'],
     fontWeight: '700',
     color: '#fff',
     mb: 0,
@@ -121,7 +118,7 @@ BannerSection.defaultProps = {
   },
   fillButton: {
     type: 'button',
-    fontSize: ['13px', '21px'],
+    fontSize: ['13px', '14px'],
     fontWeight: '600',
     borderRadius: '4px',
     p: ['0px 15px', '8px 22px'],
@@ -137,7 +134,7 @@ BannerSection.defaultProps = {
   },
   button: {
     type: 'button',
-    fontSize: ['13px', '21px'],
+    fontSize: ['13px', '14px'],
     fontWeight: '600',
     borderRadius: '4px',
     p: ['0px 15px', '8px 22px'],
