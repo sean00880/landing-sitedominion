@@ -9,7 +9,7 @@ import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.st
 import BannerSection from 'containers/SaasModern/Banner/BannerProjects2';
 import Navbar from 'containers/SaasModern/Navbar';
 import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
-import PricingSection from 'containers/SaasModern/Pricing';
+import PricingSection from 'containers/SassMinimal/Pricing';
 import PartnerSection from 'containers/SaasModern/Partner';
 import FaqSection from 'containers/SaasModern/Faq';
 import TrialSection from 'containers/SaasModern/Trial';

@@ -44,7 +44,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, button, secHeading }) => {
 
                
               <NextImage src={item.image} alt={`screenshot-${index + 1}`} />
-              <Box style={{ "display": "flex", "flexDirection": "column", "justifyContent": "center", "alignItems":"center"}}>
+              <Box style={{ "display": "flex", "flexDirection": "column", "justifyContent": "center", "alignItems":"center","padding":"1vh"}}>
               <Link href={item.link}>
                 <a>
                   <Button {...button} title="LEARN MORE" />

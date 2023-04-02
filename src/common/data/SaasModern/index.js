@@ -18,6 +18,8 @@ import AuthorOne from '../../assets/image/saasModern/author-1.jpg';
 import AuthorTwo from '../../assets/image/saasModern/author-2.jpg';
 import AuthorThree from '../../assets/image/saasModern/author-3.jpg';
 
+import Google from '../../assets/image/saasModern/google.webp';
+
 import { ic_monetization_on } from 'react-icons-kit/md/ic_monetization_on';
 import { ic_settings } from 'react-icons-kit/md/ic_settings';
 import { pieChart } from 'react-icons-kit/icomoon/pieChart';
@@ -431,6 +433,7 @@ export const TESTIMONIALS = [
     name: 'Jenith S',
     designation: 'College Student',
     avatar: AuthorOne,
+    google: Google,
   },
   {
     title: 'Google Review',
@@ -439,6 +442,7 @@ export const TESTIMONIALS = [
     name: 'ShipWreck Cove',
     designation: 'Founder of ShipWreck Cove',
     avatar: AuthorTwo,
+    google: Google,
   },
   {
     title: 'Google Review',
@@ -447,5 +451,6 @@ export const TESTIMONIALS = [
     name: 'Alexander Evans',
     designation: 'Manager of Hp co.',
     avatar: AuthorThree,
+    google: Google,
   },
 ];

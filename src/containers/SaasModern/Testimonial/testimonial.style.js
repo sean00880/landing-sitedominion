@@ -25,12 +25,13 @@ export const TestimonialSlideWrapper = styled.div`
 
 export const TestimonialItem = styled.div`
   position: relative;
-  display: block;
+  display: flex;
   background: #fff;
   border: 1px solid #f2f4f7;
   border-radius: 5px;
   padding: 40px;
-
+  alignItems: center;
+  flex-direction: column;
   @media (max-width: 575px) {
     padding: 30px;
   }

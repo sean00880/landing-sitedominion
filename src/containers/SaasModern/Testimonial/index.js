@@ -60,8 +60,15 @@ const TestimonialSection = ({
               {TESTIMONIALS.map((item, index) => (
                 <GlideSlide key={`testimonial-slide-${index}`}>
                   <TestimonialItem>
+                  <Image
+                            src={item.google?.src}
+                            alt={`google-image-${index}`}
+                            width={300}
+                            height={164}
+                          style={{"alignSelf":"center"}}/>
                     <Heading as="h3" content={item.title} {...reviewTitle} />
                     <Text content={item.review} {...review} />
+                    
                     <TestimonialMeta>
                       <AuthorInfo>
                         <AuthorImage>
@@ -76,6 +83,7 @@ const TestimonialSection = ({
                         </Box>
                       </AuthorInfo>
                     </TestimonialMeta>
+                    
                   </TestimonialItem>
                 </GlideSlide>
               ))}
@@ -144,6 +152,7 @@ TestimonialSection.defaultProps = {
     color: '#6f7a87',
     mb: 0,
   },
+  
 };
 
 export default TestimonialSection;

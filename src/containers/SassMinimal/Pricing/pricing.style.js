@@ -127,6 +127,7 @@ export const PricingWrapper = styled.section`
     font-weight: normal;
     font-size: 21px;
     color: #fff;
+    font-family:Smooch Sans,sans-serif;
     &.disabled {
       opacity: 0.5;
       i {
@@ -190,12 +191,12 @@ export const PricingWrapper = styled.section`
       display: flex;
       align-items: center;
       &.pricingOffer {
-        margin-left: 10px;
+        margin: 0 10px;
         padding:10px;
         font-style: normal;
         font-weight: bold;
         font-size: 27px;
-        line-height: 17px;
+        line-height: 1;
         color:white;
         background: #b5322e;
         border-radius: 5px;
@@ -216,7 +217,7 @@ export const PricingWrapper = styled.section`
         }
       }
       input[type='checkbox'].switch:checked + div {
-        background-color: #f04037;
+        background-color: #2aa176;
         border-color: rgba(255, 255, 255, 0);
       }
       input[type='checkbox'].switch:checked + div > div {
