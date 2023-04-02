@@ -412,7 +412,7 @@ export const MONTHLY_PRICING_TABLE = [
     isRecomended: false,
     name: 'Premium Website',
     price: '$89.99',
-    priceLabel: '/yr',
+    priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/aEU00Rdvw5e37DO5kn',
     listItems: [
