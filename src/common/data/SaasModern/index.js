@@ -82,14 +82,14 @@ export const MONTHLY_PRICING_TABLE = [
   {
     freePlan: true,
     name: 'Basic Website',
-    description: 'For Individuals',
-    price: '$49.99',
+    description: 'Simple',
+    price: '$59.99',
     priceLabel: 'Per month',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/eVa8xndvwayn8HS14c',
     listItems: [
       {
-        content: 'Website Design',
+        content: 'Basic Website Design',
       },
       {
         content: 'Deployment',
@@ -100,18 +100,21 @@ export const MONTHLY_PRICING_TABLE = [
       {
         content: 'Multiple Revisions',
       },
+      {
+        content: 'Up to 4 Pages',
+      },
     ],
   },
   {
-    name: 'Business Account',
-    description: 'For Small Businesses',
+    name: 'Business Website',
+    description: 'Medium Complexity',
     price: '$69.99',
     priceLabel: 'Per month',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/aEUcNDcrsbCre2ccMO',
     listItems: [
       {
-        content: 'Website Design',
+        content: 'Professional Website Design',
       },
       {
         content: 'Deployment',
@@ -125,18 +128,21 @@ export const MONTHLY_PRICING_TABLE = [
       {
         content: 'Lead Generation API',
       },
+      {
+        content: 'Up to 7 Pages',
+      },
     ],
   },
   {
-    name: 'Premium Account',
-    description: 'For Enterprise Businesses ',
+    name: 'Premium Website',
+    description: 'High Complexity',
     price: '$89.99',
     priceLabel: 'Per month',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/aEU00Rdvw5e37DO5kn',
     listItems: [
       {
-        content: 'Website Design',
+        content: 'Premium Website Design',
       },
       {
         content: 'Deployment',
@@ -153,8 +159,9 @@ export const MONTHLY_PRICING_TABLE = [
       {
         content: 'Blog',
       },
+      
       {
-        content: 'Unlimited Pages',
+        content: 'Up to 10 Pages',
       },
     ],
   },
@@ -164,14 +171,14 @@ export const YEARLY_PRICING_TABLE = [
   {
     freePlan: true,
     name: 'Basic Website',
-    description: 'For Individuals',
-    price: '$399.99',
+    description: 'Simple',
+    price: '$499.99',
     priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/aEUdRHfDEeOD8HS9AK',
     listItems: [
       {
-        content: 'Website Design',
+        content: 'Basic Website Design',
       },
       {
         content: 'Deployment',
@@ -182,18 +189,21 @@ export const YEARLY_PRICING_TABLE = [
       {
         content: 'Multiple Revisions',
       },
+      {
+        content: 'Up to 4 Pages',
+      },
     ],
   },
   {
-    name: 'Business Account',
-    description: 'For Small Businesses',
+    name: 'Business Website',
+    description: 'Medium Complexity',
     price: '$699.99',
     priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/5kAfZPezA9ujf6gcMR',
     listItems: [
       {
-        content: 'Website Design',
+        content: 'Professional Website Design',
       },
       {
         content: 'Deployment',
@@ -207,15 +217,18 @@ export const YEARLY_PRICING_TABLE = [
       {
         content: 'Lead Generation API',
       },
+      {
+        content: 'Up to 7 Pages',
+      },
     ],
   },
   {
-    name: 'Premium Account',
-    description: 'For Enterprise Businesses ',
+    name: 'Premium Website Design',
+    description: 'High Complexity',
     price: '$899.99',
     priceLabel: 'One time',
     buttonLabel: 'BUY NOW',
-    url: '#',
+    url: 'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC',
     listItems: [
       {
         content: 'Website Design',
@@ -236,7 +249,7 @@ export const YEARLY_PRICING_TABLE = [
         content: 'Blog',
       },
       {
-        content: 'Unlimited Pages',
+        content: 'Up to 10 Pages',
       },
     ],
   },
@@ -245,25 +258,36 @@ export const YEARLY_PRICING_TABLE = [
 export const FAQ_DATA = [
   {
     expend: true,
-    title: 'How to contact with Customer Service?',
+    title: 'What services does Site Dominion offer?',
     description:
-      'Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat . We try to reply quickly, so you need not to wait too long for a response!. ',
+      'Site Dominion offers a range of web development services with their packages. Services include website design, website development, SEO, blog creation and website copywriting.',
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'What is the process for working with Site Dominion?',
     description:
-      'Please read the documentation carefully . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum . ',
+      "Our three-step process is simple: First, the customer browses our website and selects a package that best fits their needs. Second, the customer makes the payment through our secure payment portal. Finally, our team of web developers creates the website according to the customer's specifications.",
   },
   {
-    title: 'Website reponse taking time, how to improve?',
+    title: 'Can Site Dominion create custom website designs?',
     description:
-      'At first, Please check your internet connection . We also have some online  video tutorials regarding this issue . If the problem remains, Please Open a ticket in the support forum .',
+      "Yes, Site Dominion can create custom website designs tailored to the customer's specific requirements. Our team of experienced designers will work closely with the customer to ensure that the website meets their expectations.",
   },
   {
-    title: 'New update fixed all bug and issues?',
+    title: 'Does Site Dominion offer website hosting and maintenance services?',
     description:
-      'We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us .',
+      'Indeed, as part of our offerings, Site Dominion provides website hosting and maintenance services. Updates, backups, and security monitoring are just a few of the maintenance tasks we can take care of for your website.',
   },
+  {
+    title: ' How can I contact Site Dominion?',
+    description:
+      'You can get in touch with Site Dominion by phoning us, sending an email to our customer care team, or filling out the contact form on our website. If you have any queries about our services or the web development process, we are here to help.',
+  },
+  {
+    title:'How long does it take to complete a website project?',
+    description:
+      "The length of time it takes to complete a website project depends on its complexity and the customer's package choice. Before beginning the job, our team will give an anticipated completion date, and we work quickly to guarantee on-time delivery."
+  }
+
 ];
 
 export const FOOTER_WIDGET = [

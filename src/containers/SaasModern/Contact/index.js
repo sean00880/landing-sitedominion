@@ -5,6 +5,9 @@ import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
+import { useRef } from 'react';
 import {
   Accordion,
   AccordionItem,
@@ -34,6 +37,18 @@ const FaqSection = ({
   buttonWrapper,
   button,
 }) => {
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_it2ab1j', 'template_y4eut5v', form.current, 'jUn1z-vodKfQLijZ7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <Box {...sectionWrapper} id="faq_section">
       <Container>
@@ -50,7 +65,7 @@ const FaqSection = ({
 									<h3>-- Prefer cusotm pricing instead? Get Your Instant <span>FREE</span> Quote! --</h3>
 									<hr />
 									<div className="empty_notice"><span style={{'color':'#b73834'}}>Please Fill Required Fields</span></div>
-									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="frenifyteam@gmail.com">
+									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="service@sitedominion.com"  ref={form} onSubmit={sendEmail}>
 
 
 										{/* Don't remove below code in avoid to work contact form properly.
@@ -63,20 +78,20 @@ const FaqSection = ({
 											Name:
 											<div className="item">
 												
-												<input id="name" type="text" placeholder="Name" />
+												<input id="name" type="text" name="name" placeholder="Name" />
 											</div>
 											Contact Information:
 											<div className="item">
 												
-												<input id="email" type="email" placeholder="Email" />
+												<input id="email" type="email" name="email" placeholder="Email" />
 											</div>
 											<div className="item">
-												<input id="name" type="text" placeholder="Your Address [1234, Main Street, CA - 12345]" />
+												<input id="name" type="text" name="contact" placeholder="Your phone number [+1(000)00-0000]" />
 											</div>
 											<div className="item">
 												
 													Service: <br></br>
-													<select type="select" style={{"fontSize":"23px","fontFamily":"Smooch Sans"}}>
+													<select type="select" name="service" style={{"fontSize":"23px","fontFamily":"Smooch Sans","border":"1px solid #9a9a9a"}}>
 														<option value="Web Design">Web Design & Development</option>
 														<option value="Web Deployment">Website Deployment</option>
                             <option value="Blog">Blog</option>
@@ -92,10 +107,10 @@ const FaqSection = ({
 										<div className="items">
 											<div className="item">
 												Brief description of your requirements:
-												<textarea id="message" placeholder="Message"></textarea>
+												<textarea name="message" id="message" placeholder="Message"></textarea>
 											</div>
 											<div className="button">
-												<Link href="#"><a id="send_message">SUBMIT</a></Link>
+											<button type="submit" id="send_message">SUBMIT</button>
 											</div>
 										</div>
 									</form>

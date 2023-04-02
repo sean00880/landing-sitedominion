@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const PricingTable = styled.div`
-  border: 1px solid #f2f4f7;
+  border: 1px solid #9a9a9a;
   border-radius: 5px;
   padding: 60px 45px;
   border-radius: 5px;

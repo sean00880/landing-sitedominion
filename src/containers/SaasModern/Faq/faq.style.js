@@ -26,6 +26,8 @@ const FaqWrapper = styled.div`
   text-align: center;
   font-family: 'smooch sans';
   font-size: 25px;
+  border: 1px solid #9a9a9a;
+  padding: 2vh;
 }
   .contact_left textarea,
 .contact_left input[type="text"],
@@ -33,12 +35,20 @@ const FaqWrapper = styled.div`
 	width: 100%;
 	display: block;
 	border-radius: 3px;
-	border: 1px solid #222;
+	border: 1px solid #9a9a9a;
 	color: #565656;
 	outline: none;
 	height: 45px;
 	letter-spacing: 2px;
+  font-family: 'smooch sans',sans-serif;
+  font-size: 21px;
 }
+
+.contact_left hr{
+  color:#9a9a9a;
+  background: #9a9a9a;
+}
+
 .contact_left textarea:focus,
 .contact_left input[type="text"]:focus,
 .contact_left input[type="email"]:focus{
@@ -53,6 +63,8 @@ const FaqWrapper = styled.div`
 .contact_left textarea{
 	min-height: 200px;
 	color:#565656;
+  font-family:'smooch sans',sans-serif;
+  font-size: 21px;
 }
 .contact_left a:hover{
 	background-color: #899c87;
@@ -71,15 +83,17 @@ const FaqWrapper = styled.div`
 	outline: 1px dashed #444;
 }
 
-.button a{
+#send_message{
   font-size: 21px;
   border-radius: 4px;
   padding-left: 22px;
   padding-right: 22px;
   background: #394477;
+  font-family: 'smooch sans', sans-serif;
+  color:white;
 }
 
-.button a:hover{;
+#send_message:hover{;
   background: #030401;
 }
 
