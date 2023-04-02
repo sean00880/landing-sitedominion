@@ -56,7 +56,7 @@ const Pricing = () => {
         </Box>
         <Box className="pricingFilter">
         <span className="pricingOffer">Discounted Price</span>
-          <span>One-Time</span>
+          <span> One-Time</span>
           <Switch
             switchColor="#fff"
             labelText=""
