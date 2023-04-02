@@ -26,8 +26,8 @@ const options = [
 
 const Pricing = () => {
   const [state, setState] = useState({
-    toggle: true,
-    data: MONTHLY_PRICING_TABLE,
+    toggle: false,
+    data: YEARLY_PRICING_TABLE,
   });
 
   const [loading, setLoading] = useState(false);
@@ -55,14 +55,14 @@ const Pricing = () => {
           <Heading as="h2" content="What deal suit you perfect" />
         </Box>
         <Box className="pricingFilter">
-          <span>Monthly</span>
+          <span>One-Time</span>
           <Switch
             switchColor="#fff"
             labelText=""
             labelPosition="left"
             onChange={dataHandle}
           />
-          <span>Yearly</span>
+          <span>Monthly</span>
           <span className="pricingOffer">Discounted Price</span>
         </Box>
         {state.toggle === true ? (

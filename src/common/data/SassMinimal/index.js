@@ -453,7 +453,7 @@ export const YEARLY_PRICING_TABLE = [
     isRecomended: false,
     name: 'Basic Website',
     price: '$499.99',
-    priceLabel: '/yr',
+    priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/aEUdRHfDEeOD8HS9AK',
     listItems: [
@@ -491,7 +491,7 @@ export const YEARLY_PRICING_TABLE = [
     isRecomended: true,
     name: 'Business Website',
     price: '$699.99',
-    priceLabel: '/yr',
+    priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/5kAfZPezA9ujf6gcMR',
     listItems: [
@@ -529,7 +529,7 @@ export const YEARLY_PRICING_TABLE = [
     isRecomended: false,
     name: 'Premium Website',
     price: '$899.99',
-    priceLabel: '/yr',
+    priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC',
     listItems: [
