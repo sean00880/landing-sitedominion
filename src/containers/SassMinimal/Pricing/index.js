@@ -55,6 +55,7 @@ const Pricing = () => {
           <Heading as="h2" content="What deal suit you perfect" />
         </Box>
         <Box className="pricingFilter">
+        <span className="pricingOffer">Discounted Price</span>
           <span>One-Time</span>
           <Switch
             switchColor="#fff"
@@ -63,7 +64,7 @@ const Pricing = () => {
             onChange={dataHandle}
           />
           <span>Monthly</span>
-          <span className="pricingOffer">Discounted Price</span>
+          
         </Box>
         {state.toggle === true ? (
           <Box className="row">
