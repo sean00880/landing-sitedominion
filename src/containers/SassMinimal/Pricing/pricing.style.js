@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const PricingWrapper = styled.section`
   position: relative;
-  background-color: #020718;
   padding-top: 75px;
   padding-bottom: 70px;
+
+  
 
   .blockTitle {
     text-align: center;
@@ -15,14 +16,18 @@ export const PricingWrapper = styled.section`
       font-weight: 500;
       font-size: 26px;
       letter-spacing: -0.02em;
-      color: #fff;
+      color: black;
       margin-bottom: 10px;
     }
-    p {
-      color: #858b91;
-      margin: 0;
+    span {
+      color: #2aa275;
+      margin:0;
+      margin-bottom: 5px;
       font-style: normal;
-      font-weight: normal;
+      text-align:center;
+      display:block;
+      letter-spacing: '.15em';
+      font-weight: 700;
       font-size: 21px;
     }
   }
@@ -42,14 +47,15 @@ export const PricingWrapper = styled.section`
   }
 
   .pricingBox {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgb(24 24 24);
     border-radius: 10px;
     padding-top: 50px;
     margin-bottom: 30px;
     &.recomended {
-      background-color: #fff;
+      background-color: #f9f9f9;
       p {
         color: #0f2137;
+       
       }
     }
     p {
@@ -58,10 +64,11 @@ export const PricingWrapper = styled.section`
       font-style: normal;
       font-weight: 500;
       font-size: 27px;
-      letter-spacing: -0.55px;
+      letter-spacing: 1px;
       line-height: 1;
-      padding-left: 40px;
       margin-top: 21px;
+      text-align:center;
+        font-family: Smooch Sans,sans-serif;
     }
   }
   .pricingHeading {
@@ -79,6 +86,7 @@ export const PricingWrapper = styled.section`
     }
     span {
       display: block;
+      font-family: Smooch Sans, sans-serif;
       margin-bottom: 0;
       color: #8d909c;
       font-style: normal;
@@ -149,7 +157,8 @@ export const PricingWrapper = styled.section`
     padding-right: 40px;
     font-style: normal;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 29px;
+    font-family: Smooch Sans, sans-serif;
     color: #fff;
     padding-top: 35.5px;
     padding-bottom: 35.5px;
@@ -174,20 +183,23 @@ export const PricingWrapper = styled.section`
     span {
       font-style: normal;
       font-weight: 500;
-      font-size: 21px;
+      font-size: 27px;
       letter-spacing: -0.562737px;
-      color: #ffffff;
+      color: black;
+      font-family:smooch sans, sans-serif;
       display: flex;
       align-items: center;
       &.pricingOffer {
         margin-left: 10px;
-        padding: 4px 10px;
+        padding:10px;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 27px;
         line-height: 17px;
-        background: #f04037;
+        color:white;
+        background: #b5322e;
         border-radius: 5px;
+        letter-spacing: 1px;
       }
     }
     .reusecore__switch {
@@ -196,7 +208,7 @@ export const PricingWrapper = styled.section`
       input[type='checkbox'] + div {
         width: 66px;
         height: calc(66px / 2);
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgb(3 4 1);
         border-color: rgba(255, 255, 255, 0);
         > div {
           width: calc(66px / 2 - 8px);

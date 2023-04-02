@@ -11,7 +11,7 @@ import BannerSection from 'containers/SaasModern/Banner';
 
 import Navbar from 'containers/SaasModern/Navbar';
 const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
-const PricingSection = dynamic(() => import('containers/SaasModern/Pricing'));
+const PricingSection = dynamic(() => import('containers/SassMinimal/Pricing'));
 const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
 const FaqSection = dynamic(() => import('containers/SaasModern/Faq'));
 const TrialSection = dynamic(() => import('containers/SaasModern/Trial'));

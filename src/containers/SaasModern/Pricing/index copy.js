@@ -107,22 +107,20 @@ const PricingSection = ({
             content="What’s our monthly pricing subscription"
           />
           <PricingButtonWrapper>
-          <Button
-              title="One-Time"
-              className={activeStatus  ? 'active-item' : ''}
-               
+            <Button
+              title="Monthly"
+              className={activeStatus ? 'active-item' : ''}
               onClick={() =>
-                setState({ data: YEARLY_PRICING_TABLE, active: true })
+                setState({ data: MONTHLY_PRICING_TABLE, active: true })
               }
             />
             <Button
-              title="Monthly"
+              title="One-Time"
               className={activeStatus === false ? 'active-item' : ''}
               onClick={() =>
-                setState({ data: MONTHLY_PRICING_TABLE, active: false })
+                setState({ data: YEARLY_PRICING_TABLE, active: false })
               }
             />
-            
           </PricingButtonWrapper>
         </Box>
         <Box {...row}>

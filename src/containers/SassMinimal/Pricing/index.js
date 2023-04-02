@@ -48,11 +48,11 @@ const Pricing = () => {
     <PricingWrapper id="pricing_section">
       <Container>
         <Box className="blockTitle">
-          <Heading as="h2" content="What deal suit you perfect" />
           <Text
-            as="p"
-            content="We are designed with most exciting pricing plan"
+            as="span"
+            content="PRICING PLAN"
           />
+          <Heading as="h2" content="What deal suit you perfect" />
         </Box>
         <Box className="pricingFilter">
           <span>Monthly</span>
@@ -63,7 +63,7 @@ const Pricing = () => {
             onChange={dataHandle}
           />
           <span>Yearly</span>
-          <span className="pricingOffer">Save 25%</span>
+          <span className="pricingOffer">Discounted Price</span>
         </Box>
         {state.toggle === true ? (
           <Box className="row">
@@ -79,19 +79,9 @@ const Pricing = () => {
                     <Heading as="h3" content={pricingTable.price} />
                     <Text as="span" content={pricingTable.priceLabel} />
                   </Box>
-                  <Text as="p" content={pricingTable.name} />
-                  {pricingTable.isRecomended === true ? (
-                    <Select
-                      options={options}
-                      defaultValue={options[0]}
-                      id="pricingUsers"
-                      components={{
-                        IndicatorSeparator: () => null,
-                      }}
-                    />
-                  ) : (
+                  <Text as="p" content={pricingTable.name} />                   
                     <span className="hr"></span>
-                  )}
+                  
                   <Box className="pricingList">
                     {pricingTable.listItems.map((list, index) => (
                       <Box
@@ -135,18 +125,9 @@ const Pricing = () => {
                     <Text as="span" content={pricingTable.priceLabel} />
                   </Box>
                   <Text as="p" content={pricingTable.name} />
-                  {pricingTable.isRecomended === true ? (
-                    <Select
-                      options={options}
-                      defaultValue={options[0]}
-                      id="pricingUsers"
-                      components={{
-                        IndicatorSeparator: () => null,
-                      }}
-                    />
-                  ) : (
+                  
                     <span className="hr"></span>
-                  )}
+                  
                   <Box className="pricingList">
                     {pricingTable.listItems.map((list, index) => (
                       <Box

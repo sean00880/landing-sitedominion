@@ -333,87 +333,116 @@ export const FAQ_DATA = [
 export const MONTHLY_PRICING_TABLE = [
   {
     isRecomended: false,
-    name: 'Starter Pack',
-    price: '$8.93',
+    name: 'Basic Website',
+    price: '$59.99',
     priceLabel: '/mo',
-    buttonLabel: 'Create Account',
-    url: '#',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/eVa8xndvwayn8HS14c',
     listItems: [
+      
       {
         isDisabled: false,
-        content: '500 users',
+        content: 'Basic Website Design',
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'Multiple Revisions',
+      },
+      {
+        isDisabled: false,
+        content: 'Up to 4 Pages',
       },
       {
         isDisabled: true,
-        content: 'Optimzed hashtags',
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: true,
+        content: 'Blog',
       },
     ],
   },
   {
     isRecomended: true,
-    name: 'Standard Pack',
-    price: '$15.93',
+    name: 'Business Website',
+    price: '$69.99',
     priceLabel: '/mo',
-    buttonLabel: 'Create Account',
-    url: '#',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/aEUcNDcrsbCre2ccMO',
     listItems: [
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Professional Website Design',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: 'Multiple Revisions',
+      },
+      {
+        isDisabled: false,
+        content: 'Up to 4 Pages',
+      },
+      {
+        isDisabled: false,
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: true,
+        content: 'Blog',
       },
     ],
   },
   {
     isRecomended: false,
-    name: 'For business enterprise',
-    price: 'Let’s Talk',
-    priceLabel: '',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: 'Premium Website',
+    price: '$89.99',
+    priceLabel: '/yr',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/aEU00Rdvw5e37DO5kn',
     listItems: [
       {
         isDisabled: false,
-        content: '10,000 users',
+        content: 'Premium Website Design',
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'Multiple Revisions',
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: 'Up to 7 Pages',
+      },
+      {
+        isDisabled: false,
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: false,
+        content: 'Blog',
       },
     ],
   },
@@ -422,87 +451,115 @@ export const MONTHLY_PRICING_TABLE = [
 export const YEARLY_PRICING_TABLE = [
   {
     isRecomended: false,
-    name: 'Starter Pack',
-    price: '$40.43',
+    name: 'Basic Website',
+    price: '$499.99',
     priceLabel: '/yr',
-    buttonLabel: 'Create Account',
-    url: '#',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/aEUdRHfDEeOD8HS9AK',
     listItems: [
       {
         isDisabled: false,
-        content: '500 users',
+        content: 'Basic Website Design',
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'Multiple Revisions',
+      },
+      {
+        isDisabled: false,
+        content: 'Up to 10 Pages',
       },
       {
         isDisabled: true,
-        content: 'Optimzed hashtags',
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: true,
+        content: 'Blog',
       },
     ],
   },
   {
     isRecomended: true,
-    name: 'Standard Pack',
-    price: '$75.79',
+    name: 'Business Website',
+    price: '$699.99',
     priceLabel: '/yr',
-    buttonLabel: 'Create Account',
-    url: '#',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/5kAfZPezA9ujf6gcMR',
     listItems: [
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Professional Website Designs',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: 'Multiple Revisions',
+      },
+      {
+        isDisabled: false,
+        content: 'Up to 7 Pages',
+      },
+      {
+        isDisabled: false,
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: true,
+        content: 'Blog',
       },
     ],
   },
   {
     isRecomended: false,
-    name: 'For business enterprise',
-    price: 'Let’s Talk',
-    priceLabel: '',
-    buttonLabel: 'Create Account',
-    url: '#',
+    name: 'Premium Website',
+    price: '$899.99',
+    priceLabel: '/yr',
+    buttonLabel: 'CHOOSE PACKAGE',
+    url: 'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC',
     listItems: [
       {
         isDisabled: false,
-        content: '10,000 users',
+        content: 'Premium Website Design',
       },
       {
         isDisabled: false,
-        content: 'Own analytics platform',
+        content: 'Deployment',
       },
       {
         isDisabled: false,
-        content: 'Unlimited links',
+        content: 'On-Page SEO',
       },
       {
         isDisabled: false,
-        content: 'Chat promt supported',
+        content: 'Multiple Revisions',
       },
       {
         isDisabled: false,
-        content: 'Optimzed hashtags',
+        content: 'Up to 10 Pages',
+      },
+      {
+        isDisabled: false,
+        content: 'Lead Generation API',
+      },
+      {
+        isDisabled: false,
+        content: 'Blog',
       },
     ],
   },
