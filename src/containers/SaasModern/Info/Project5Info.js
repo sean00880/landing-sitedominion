@@ -84,7 +84,10 @@ const InfoSection = ({
             <Text
               {...description}
               content="To ensure that the website was fast and reliable, we utilized Vercel, a cloud platform for serverless deployment, and Github Pages, a static site hosting service. These technologies allowed us to deploy the website quickly and easily, while also ensuring that it was scalable and could handle large amounts of traffic."/>
-                
+              <Heading
+              {...title}
+              content="Key Features"
+            />
           </Box>
         </Box>
   
@@ -92,10 +95,7 @@ const InfoSection = ({
       <Container>
         <Box {...row} {...textAreaRow} style={{"flexDirection":"row"}}>
           <Box {...col} {...textArea} style={{"width":"100%"}}>
-          <Heading
-              {...title}
-              content="Key Features"
-            />
+          
           <Text
               {...description}
               content="One of the key features of the website is its use of Next.JS, a popular React framework that allows for server-side rendering and automatic code splitting. This allowed us to build a dynamic website that is optimized for performance and SEO, while also making it easy to manage and update content."/>

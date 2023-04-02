@@ -6,7 +6,7 @@ import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
-
+import dynamic from 'next/dynamic';
 import BannerSection from 'containers/SaasModern/Banner/Banner3';
 import Navbar from 'containers/SaasModern/Navbar';
 import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
@@ -21,6 +21,8 @@ import TestimonialSection from 'containers/SaasModern/Testimonial';
 import Footer from 'containers/SaasModern/Footer';
 import Service from 'containers/AgencyDigital/Service';
 import TrustedProofSections from 'containers/Crypto/TrustedProof';
+const Gallery = dynamic(() => import('containers/Interior/Gallery'));
+const ContactSection = dynamic(() => import('containers/SaasModern/Contact'));
 
 const SaasModern = () => {
   return (
@@ -48,9 +50,13 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          <Service />
+          <FeatureSection />
+          <WorkingProcessSection />
           <UpdateScreen />
           <PricingSection />
+          <ContactSection/>
+          <Gallery/>
+          <TestimonialSection />
           <FaqSection />
           <Footer />
         </ContentWrapper>

@@ -25,7 +25,7 @@ const Gallery = () => {
     },
   };
   return (
-    <GalleryWrapper id="gallery">
+    <GalleryWrapper id="gallery_section">
       <GlideCarousel
         carouselSelector="gallery_carousel"
         options={glideOptions}

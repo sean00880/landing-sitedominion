@@ -96,6 +96,7 @@ const PricingButtonWrapper = styled.div`
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 5px;
       border-right-color: transparent;
+      
     }
     &:nth-child(2) {
       border-top-left-radius: 0;
@@ -103,6 +104,8 @@ const PricingButtonWrapper = styled.div`
       border-bottom-right-radius: 5px;
       border-bottom-left-radius: 0;
       border-left-color: transparent;
+      
+      
     }
     &.active-item {
       color: #b5322e;

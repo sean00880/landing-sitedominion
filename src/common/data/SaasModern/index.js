@@ -44,6 +44,16 @@ export const MENU_ITEMS = [
     path: '#pricing_section',
     offset: '30',
   },
+  {
+    path: '#contact_section',
+    label: 'Contact',
+  },
+  {
+    label: 'Portfolio',
+    path: '#gallery_section',
+    offset: '300',
+  },
+
   
   {
     label: 'Testimonials',
@@ -55,6 +65,7 @@ export const MENU_ITEMS = [
     path: '#faq_section',
     offset: '140',
   },
+
 ];
 
 export const PROCESS_ITEMS = [
@@ -80,7 +91,7 @@ export const PROCESS_ITEMS = [
 
 export const MONTHLY_PRICING_TABLE = [
   {
-    freePlan: true,
+    freePlan: false,
     name: 'Basic Website',
     description: 'Simple',
     price: '$59.99',
@@ -134,6 +145,7 @@ export const MONTHLY_PRICING_TABLE = [
     ],
   },
   {
+    freePlan: true,
     name: 'Premium Website',
     description: 'High Complexity',
     price: '$89.99',
@@ -169,7 +181,7 @@ export const MONTHLY_PRICING_TABLE = [
 
 export const YEARLY_PRICING_TABLE = [
   {
-    freePlan: true,
+   
     name: 'Basic Website',
     description: 'Simple',
     price: '$499.99',
@@ -223,6 +235,7 @@ export const YEARLY_PRICING_TABLE = [
     ],
   },
   {
+    freePlan: true,
     name: 'Premium Website Design',
     description: 'High Complexity',
     price: '$899.99',
@@ -311,9 +324,18 @@ export const FOOTER_WIDGET = [
         text: 'Pricing',
       },
       {
+        url: '#contact_section',
+        text: 'Contact',
+      },
+      {
+        url: '#portfolio_section',
+        text: 'Portfolio',
+      },
+      {
         url: '#testimonials_section',
         text: 'Testimonials',
       },
+
       {
         url: '#faq_section',
         text: 'FAQ',
@@ -323,18 +345,12 @@ export const FOOTER_WIDGET = [
   {
     title: 'Our Information',
     menuItems: [
+
       {
-        url: '#',
-        text: 'Return Policy',
-      },
-      {
-        url: '#',
+        url: '/privacy-policy',
         text: 'Privacy Policy',
       },
-      {
-        url: '#',
-        text: 'Terms & Conditions',
-      },
+    
     ],
   },
   
@@ -403,7 +419,7 @@ export const SCREENSHOTS = [
     icon: briefcase,
     title: 'Website Copywriting',
     image: Screenshot4,
-    link: 'web-development'
+    link: 'website-copywriting'
   },
 ];
 

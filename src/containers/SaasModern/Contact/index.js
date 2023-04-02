@@ -50,7 +50,7 @@ const FaqSection = ({
       });
   };
   return (
-    <Box {...sectionWrapper} id="faq_section">
+    <Box {...sectionWrapper} id="contact_section">
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="CONTACT US" />

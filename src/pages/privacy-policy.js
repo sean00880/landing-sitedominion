@@ -7,20 +7,20 @@ import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
 import dynamic from 'next/dynamic';
-import BannerSection from 'containers/SaasModern/Banner';
-
+import BannerSection from 'containers/SaasModern/Banner/BannerPrivacy';
 import Navbar from 'containers/SaasModern/Navbar';
-const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
-const PricingSection = dynamic(() => import('containers/SaasModern/Pricing'));
-const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
-const FaqSection = dynamic(() => import('containers/SaasModern/Faq'));
-const TrialSection = dynamic(() => import('containers/SaasModern/Trial'));
-const InfoSection = dynamic(() => import('containers/SaasModern/Info'));
-const FeatureSection = dynamic(() => import('containers/SaasModern/Feature'));
-const UpdateScreen = dynamic(() => import('containers/SaasModern/UpdateScreen'));
-const TestimonialSection = dynamic(() => import('containers/SaasModern/Testimonial'));
-const Footer = dynamic(() => import('containers/SaasModern/Footer'));
-const Service = dynamic(() => import('containers/AgencyDigital/Service'));
+import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
+import PricingSection from 'containers/SaasModern/Pricing';
+import PartnerSection from 'containers/SaasModern/Partner';
+import FaqSection from 'containers/SaasModern/Faq';
+import TrialSection from 'containers/SaasModern/Trial';
+import InfoSection from 'containers/SaasModern/Info/PrivacyPolicy';
+import FeatureSection from 'containers/SaasModern/Feature';
+import UpdateScreen from 'containers/SaasModern/UpdateScreen';
+import TestimonialSection from 'containers/SaasModern/Testimonial';
+import Footer from 'containers/SaasModern/Footer';
+import Service from 'containers/AgencyDigital/Service';
+import TrustedProofSections from 'containers/Crypto/TrustedProof';
 const Gallery = dynamic(() => import('containers/Interior/Gallery'));
 const ContactSection = dynamic(() => import('containers/SaasModern/Contact'));
 
@@ -29,7 +29,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | High Converting Websites For All Niches</title>
+          <title>Site Dominion | Privacy Policy</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -50,8 +50,6 @@ const SaasModern = () => {
           </Sticky>
           <BannerSection />
           <InfoSection />
-          
-          
           <FeatureSection />
           <WorkingProcessSection />
           <UpdateScreen />
@@ -60,7 +58,6 @@ const SaasModern = () => {
           <Gallery/>
           <TestimonialSection />
           <FaqSection />
-    
           <Footer />
         </ContentWrapper>
       </Fragment>
