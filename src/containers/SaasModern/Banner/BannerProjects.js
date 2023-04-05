@@ -73,11 +73,11 @@ BannerSection.defaultProps = {
     justifyContent: 'center',
   },
   contentWrapper: {
-    width: ['100%', '100%', '80%', '55%', '50%'],
+    width: ['100%', '100%', '100%','100%'],
     mb: '40px',
   },
   title: {
-    fontSize: ['29px', '32px', '40px', '42px', '46px'],
+    fontSize: ['46px', '46px', '46px', '46px', '46px'],
     fontWeight: '700',
     color: '#fff',
     letterSpacing: '-0.025em',

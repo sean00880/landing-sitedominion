@@ -29,17 +29,18 @@ const BannerSection = ({
   return (
     <BannerWrapper id="banner_section">
       <TiltShape />
-      <Container>
+      <Container >
         <Box {...row}>
-          <Box {...contentWrapper}>
+          <Box {...contentWrapper} style={{"display":"flex","flexDirection":"column","justifyContent":"center"}} >
             
-            <Heading
+            <Heading 
               {...title}
-              content="Your One-Stop-Shop for Truly Exceptional Websites"
+              content="Transformative Custom Web Design | San Diego"
             />
+           
             <Text
               {...description}
-              content="Site Dominion, your go-to web development company, can help you unleash the power of your online presence. We Help Your Business Rule the Digital World From Design to Deployment!"
+              content="Experience Unmatched Web Design Excellence at Site Dominion - Conquer the Internet Sphere with Our Advanced Web Design Expertise & Elevate Your Digital Impact Now!"
             />
             <Box {...buttonWrapper}>
               <Link href="#pricing_section">
@@ -83,10 +84,12 @@ BannerSection.defaultProps = {
   },
   contentWrapper: {
     width: ['100%', '100%', '80%', '55%', '50%'],
+    minHeight: ['55vh','50vh','0vh','0vh','0vh'],
     mb: '40px',
+   
   },
   title: {
-    fontSize: ['24px', '32px', '40px', '42px', '46px'],
+    fontSize: ['46px', '46px', '46px', '46px', '46px'],
     fontWeight: '700',
     color: '#fff',
     letterSpacing: '-0.025em',
@@ -95,9 +98,10 @@ BannerSection.defaultProps = {
     textAlign: 'center',
   },
   description: {
-    fontSize: ['15px', '16px', '16px', '16px', '16px'],
+    fontSize: ['17px', '21px', '21px', '21px', '21px'],
     color: '#fff',
-    lineHeight: '1.75',
+    fontWeight: '400',
+    lineHeight: '2',
     mb: '0',
     textAlign: 'center',
   },

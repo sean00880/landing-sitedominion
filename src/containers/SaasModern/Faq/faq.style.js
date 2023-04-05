@@ -32,6 +32,7 @@ const FaqWrapper = styled.div`
   .contact_left textarea,
 .contact_left input[type="text"],
 .contact_left input[type="email"]{
+  padding:1vh;
 	width: 100%;
 	display: block;
 	border-radius: 3px;

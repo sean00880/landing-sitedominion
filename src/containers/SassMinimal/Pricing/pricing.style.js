@@ -47,12 +47,14 @@ export const PricingWrapper = styled.section`
   }
 
   .pricingBox {
-    background-color: rgb(24 24 24);
+    background: rgb(24, 24, 24);
     border-radius: 10px;
     padding-top: 50px;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 9px #000000;
     &.recomended {
-      background-color: #f9f9f9;
+      background: radial-gradient(#f0f0f5,#0000000f);
+      box-shadow: 0px 0px 9px #2aa275;
       p {
         color: #0f2137;
        
@@ -71,6 +73,7 @@ export const PricingWrapper = styled.section`
         font-family: Smooch Sans,sans-serif;
     }
   }
+  
   .pricingHeading {
     display: flex;
     align-items: baseline;
@@ -151,7 +154,7 @@ export const PricingWrapper = styled.section`
   .pricingBtn {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgb(24 24 24);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-left: 40px;

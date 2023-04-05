@@ -334,7 +334,7 @@ export const MONTHLY_PRICING_TABLE = [
   {
     isRecomended: false,
     name: 'Basic Website',
-    price: '$59.99',
+    price: '$79.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/eVa8xndvwayn8HS14c',
@@ -360,20 +360,12 @@ export const MONTHLY_PRICING_TABLE = [
         isDisabled: false,
         content: 'Up to 4 Pages',
       },
-      {
-        isDisabled: true,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: true,
-        content: 'Blog',
-      },
     ],
   },
   {
     isRecomended: true,
     name: 'Business Website',
-    price: '$69.99',
+    price: '$99.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/aEUcNDcrsbCre2ccMO',
@@ -396,22 +388,15 @@ export const MONTHLY_PRICING_TABLE = [
       },
       {
         isDisabled: false,
-        content: 'Up to 4 Pages',
-      },
-      {
-        isDisabled: false,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: true,
-        content: 'Blog',
+        content: 'Up to 7 Pages',
       },
     ],
+
   },
   {
     isRecomended: false,
     name: 'Premium Website',
-    price: '$89.99',
+    price: '$119.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/aEU00Rdvw5e37DO5kn',
@@ -434,15 +419,7 @@ export const MONTHLY_PRICING_TABLE = [
       },
       {
         isDisabled: false,
-        content: 'Up to 7 Pages',
-      },
-      {
-        isDisabled: false,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: false,
-        content: 'Blog',
+        content: 'Up to 10 Pages',
       },
     ],
   },
@@ -452,7 +429,7 @@ export const YEARLY_PRICING_TABLE = [
   {
     isRecomended: false,
     name: 'Basic Website',
-    price: '$499.99',
+    price: '$799.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/aEUdRHfDEeOD8HS9AK',
@@ -475,29 +452,21 @@ export const YEARLY_PRICING_TABLE = [
       },
       {
         isDisabled: false,
-        content: 'Up to 10 Pages',
-      },
-      {
-        isDisabled: true,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: true,
-        content: 'Blog',
+        content: 'Up to 4 Pages',
       },
     ],
   },
   {
     isRecomended: true,
     name: 'Business Website',
-    price: '$699.99',
+    price: '$999.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/5kAfZPezA9ujf6gcMR',
     listItems: [
       {
         isDisabled: false,
-        content: 'Professional Website Designs',
+        content: 'Professional Website Design',
       },
       {
         isDisabled: false,
@@ -515,20 +484,12 @@ export const YEARLY_PRICING_TABLE = [
         isDisabled: false,
         content: 'Up to 7 Pages',
       },
-      {
-        isDisabled: false,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: true,
-        content: 'Blog',
-      },
     ],
   },
   {
     isRecomended: false,
     name: 'Premium Website',
-    price: '$899.99',
+    price: '$1,199.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
     url: 'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC',
@@ -552,14 +513,6 @@ export const YEARLY_PRICING_TABLE = [
       {
         isDisabled: false,
         content: 'Up to 10 Pages',
-      },
-      {
-        isDisabled: false,
-        content: 'Lead Generation API',
-      },
-      {
-        isDisabled: false,
-        content: 'Blog',
       },
     ],
   },

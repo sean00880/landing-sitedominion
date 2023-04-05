@@ -1,5 +1,5 @@
 import Process1 from '../../assets/image/saasModern/browse.png';
-import Process2 from '../../assets/image/saasModern/package.png';
+import Process2 from '../../assets/image/saasModern/package.svg';
 import Process3 from '../../assets/image/saasModern/website.png';
 
 import FeatureIcon1 from '../../assets/image/saasModern/icon-1.png';

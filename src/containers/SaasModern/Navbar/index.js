@@ -14,7 +14,7 @@ import { MENU_ITEMS } from 'common/data/SaasModern';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
 import LogoImage from 'common/assets/image/saasModern/logo-white.png';
-import LogoImageAlt from 'common/assets/image/saasModern/logo.png';
+import LogoImageAlt from 'common/assets/image/saasModern/logo-white.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -112,7 +112,6 @@ Navbar.defaultProps = {
     pr: '15px',
     colors: 'secondaryWithBg',
     minHeight: 'auto',
-    height: '40px',
   },
   menuWrapper: {
     flexBox: true,

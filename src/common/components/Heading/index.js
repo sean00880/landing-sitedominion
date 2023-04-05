@@ -82,7 +82,7 @@ Heading.propTypes = {
 }
 
 Heading.defaultProps = {
-  as: 'h2',
+  as: 'h1',
   mt: 0,
   mb: '1rem',
   fontWeight: 'bold',
