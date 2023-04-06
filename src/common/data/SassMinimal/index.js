@@ -337,7 +337,7 @@ export const MONTHLY_PRICING_TABLE = [
     price: '$79.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/eVa8xndvwayn8HS14c',
+    url: 'https://buy.stripe.com/fZeeVL778gWLbU4dR4',
     listItems: [
       
       {
@@ -368,7 +368,7 @@ export const MONTHLY_PRICING_TABLE = [
     price: '$99.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/aEUcNDcrsbCre2ccMO',
+    url: 'https://buy.stripe.com/cN29Br77821R5vGbIX',
     listItems: [
       {
         isDisabled: false,
@@ -399,7 +399,7 @@ export const MONTHLY_PRICING_TABLE = [
     price: '$119.99',
     priceLabel: '/mo',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/aEU00Rdvw5e37DO5kn',
+    url: 'https://buy.stripe.com/14k28ZezAgWL7DO14k',
     listItems: [
       {
         isDisabled: false,
@@ -432,7 +432,7 @@ export const YEARLY_PRICING_TABLE = [
     price: '$799.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/aEUdRHfDEeOD8HS9AK',
+    url: 'https://buy.stripe.com/28oaFvbnofSH8HSeV7',
     listItems: [
       {
         isDisabled: false,
@@ -462,7 +462,7 @@ export const YEARLY_PRICING_TABLE = [
     price: '$999.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/5kAfZPezA9ujf6gcMR',
+    url: 'https://buy.stripe.com/8wMfZPajk35V9LWcMY',
     listItems: [
       {
         isDisabled: false,
@@ -492,7 +492,7 @@ export const YEARLY_PRICING_TABLE = [
     price: '$1,199.99',
     priceLabel: '',
     buttonLabel: 'CHOOSE PACKAGE',
-    url: 'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC',
+    url: 'https://buy.stripe.com/cN2aFv6340XNe2cdR1',
     listItems: [
       {
         isDisabled: false,
