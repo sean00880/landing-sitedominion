@@ -403,7 +403,7 @@ export const SCREENSHOTS = [
     icon: ic_monetization_on,
     title: 'Web Design & Development',
     image: Screenshot2,
-    link: 'web-development'
+    link: 'web-design'
   },
   {
     icon: ic_settings,

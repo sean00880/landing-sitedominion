@@ -37,7 +37,7 @@ const PartnerSection = ({
               content="You can trust us for any kind of services and some of the world class companies have also trusted us.So have faith and keep in touch with us ."
             />
             <Box>
-              <Link href="web-development">
+              <Link href="web-design">
                 <a>
                   <Button {...button} title="LEARN MORE" />
                 </a>

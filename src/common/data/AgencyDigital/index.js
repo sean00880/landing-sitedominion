@@ -46,7 +46,7 @@ export const data = {
       title: 'Priority On Conversions',
       desc:
         'We’re driven beyond just finishing projects. We want to find smart solutions.',
-      link: 'web-development',
+      link: 'web-design',
     },
     {
       id: 2,
