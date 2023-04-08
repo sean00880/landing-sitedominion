@@ -16,8 +16,8 @@ const BlogSectionWrapper = styled.section`
       overflow: hidden;
       position: relative;
       width: calc(100% / 3 - 29px);
-      height: 450px;
-      margin: 0 12px;
+      height: 300px;
+      margin: 12px;
       transition: all 0.3s ease;
       @media only screen and (max-width: 1200px) {
         height: 400px;
@@ -65,6 +65,8 @@ const BlogSectionWrapper = styled.section`
         a {
           transform: translateY(50px);
           transition: all 0.3s ease;
+          font-family: Smooch sans, sans-serif;
+          font-style:italic;
         }
         p {
           transform: translateY(50px);

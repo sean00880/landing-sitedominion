@@ -13,6 +13,7 @@ import Navbar from 'containers/SaasModern/Navbar';
 const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
 const PricingSection = dynamic(() => import('containers/SassMinimal/Pricing'));
 const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
+import BlogSection from 'containers/Agency/BlogSection';
 const FaqSection = dynamic(() => import('containers/SaasModern/Faq'));
 const TrialSection = dynamic(() => import('containers/SaasModern/Trial'));
 const InfoSection = dynamic(() => import('containers/SaasModern/Info'));
@@ -29,7 +30,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | High Converting Websites For All Niches</title>
+          <title>Site Dominion | Best Web Design San Diego</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
@@ -57,7 +58,7 @@ const SaasModern = () => {
           <UpdateScreen />
           <PricingSection />
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           <FaqSection />
     

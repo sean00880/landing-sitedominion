@@ -6,6 +6,11 @@ import Member2 from '../../assets/image/agency/team/member-2.jpg';
 import Member3 from '../../assets/image/agency/team/member-3.jpg';
 import Denny from '../../assets/image/agency/client/denny.png';
 import Menny from '../../assets/image/agency/client/menny.png';
+import galleryImg1 from 'common/assets/image/interior/gallery/1.jpg';
+import galleryImg2 from 'common/assets/image/interior/gallery/2.jpg';
+import galleryImg3 from 'common/assets/image/interior/gallery/3.jpg';
+import galleryImg4 from 'common/assets/image/interior/gallery/4.jpg';
+import galleryImg5 from 'common/assets/image/interior/gallery/5.jpg';
 
 const data = {
   menuItems: [
@@ -141,27 +146,37 @@ const data = {
         'Proper Content Management is important to find out the real clients for your agencies .',
     },
   ],
+ 
   blog: [
     {
       id: 1,
-      title: 'Real home corporation',
-      thumbnail_url: BlogImage1,
-      date: 'November 02, 2018',
-      postLink: '#1',
+      thumbnail_url: galleryImg1,
+      title: "Grandpa Rons's LLC ",
+      postLink: '/grandpa-rons',
     },
     {
       id: 2,
-      title: 'Sheltech developer ltd.',
-      thumbnail_url: BlogImage2,
-      date: 'November 12, 2018',
-      postLink: '#2',
+      thumbnail_url: galleryImg2,
+      title: 'Designation Dump LLC',
+      postLink: '/designation-dump',
     },
     {
       id: 3,
-      title: 'Alt architecture co.',
-      thumbnail_url: BlogImage3,
-      date: 'December 09, 2018',
-      postLink: '#3',
+      thumbnail_url: galleryImg3,
+      title: 'Metanetic',
+      postLink: '/metanetic',
+    },
+    {
+      id: 4,
+      thumbnail_url: galleryImg4,
+      title: 'Articulate Insurance',
+      postLink: '/articulate-insurance',
+    },
+    {
+      id: 5,
+      thumbnail_url: galleryImg5,
+      title: 'AFJ Productions',
+      postLink: '/afj-productions',
     },
   ],
   teamMember: [

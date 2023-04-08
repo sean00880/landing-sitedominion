@@ -24,12 +24,12 @@ const BlogSection = ({
         <Box {...sectionHeader}>
           <Text content="PORTFOLIO" {...sectionSubTitle} />
           <Heading
-            content="Meet our work experience from customers"
+            content="Check out our recent projects"
             {...sectionTitle}
           />
         </Box>
         <Box className="row" {...row}>
-          {data.blog.map((post, index) => (
+          {data.blog.slice(0,6).map((post, index) => (
             <FeatureBlock
               key={`post_key-${index}`}
               id={`post_id-${post.id}`}
@@ -81,7 +81,7 @@ BlogSection.defaultProps = {
     fontSize: '21px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#10ac84',
+    color: 'black',
     mb: '10px',
   },
   // section title default style
