@@ -16,13 +16,14 @@ export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>
        <Head>
+       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QCNTBBDZFS"></Script>
             <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-LYS6SMLR0H');
+          gtag('config', 'G-QCNTBBDZFS');
         `}
         
       </Script>

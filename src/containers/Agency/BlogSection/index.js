@@ -19,7 +19,7 @@ const BlogSection = ({
   blogMeta,
 }) => {
   return (
-    <BlogSectionWrapper id="blogSection">
+    <BlogSectionWrapper id="portfolio_section">
       <Container>
         <Box {...sectionHeader}>
           <Text content="PORTFOLIO" {...sectionSubTitle} />

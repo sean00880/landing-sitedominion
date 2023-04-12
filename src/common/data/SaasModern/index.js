@@ -39,33 +39,34 @@ export const MENU_ITEMS = [
   {
     label: 'Process',
     path: '#process_section',
-    offset: '160',
+    offset: '0',
   },
   {
     label: 'Pricing',
     path: '#pricing_section',
-    offset: '30',
+    offset: '100',
   },
   {
     path: '#contact_section',
     label: 'Contact',
+    offset: '50',
   },
   {
     label: 'Portfolio',
-    path: '#gallery_section',
-    offset: '300',
+    path: '#portfolio_section',
+    offset: '50',
   },
 
   
   {
     label: 'Testimonials',
     path: '#testimonial_section',
-    offset: '80',
+    offset: '70',
   },
   {
     label: 'FAQ',
     path: '#faq_section',
-    offset: '140',
+    offset: '50',
   },
 
 ];

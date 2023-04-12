@@ -58,7 +58,7 @@ const SectionWrapper = styled.section`
       .rc-tabs-tab {
         font-size: 25px;
         font-family: 'Smooch Sans', sans-serif;
-        color: #dcf4e8;
+        color: #c0c0c0;
         font-weight: 400;
         min-width: 230px;
         padding: 0 0 27px 0;
