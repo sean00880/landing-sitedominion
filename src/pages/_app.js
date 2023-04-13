@@ -16,7 +16,9 @@ export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>
        <Head>
-       <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LYS6SMLR0H"></Script>
+        
+       <Script src="https://www.googletagmanager.com/gtag/js?id=G-LYS6SMLR0H"
+        strategy="afterInteractive"></Script>
             <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];

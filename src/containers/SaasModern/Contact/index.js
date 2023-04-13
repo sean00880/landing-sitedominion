@@ -49,6 +49,11 @@ const FaqSection = ({
           console.log(error.text);
       });
   };
+  
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+}
   return (
     <Box {...sectionWrapper} id="contact_section">
       <Container>
@@ -59,6 +64,7 @@ const FaqSection = ({
         <Box {...row}>
           <Box {...col}>
             <FaqWrapper>
+              
             <div className="content_holder">
 								<div className="list">
 				<div className="contact_left">
@@ -110,7 +116,7 @@ const FaqSection = ({
 												<textarea name="message" id="message" placeholder="Message"></textarea>
 											</div>
 											<div className="button">
-											<button type="submit" id="send_message">SUBMIT</button>
+											<button type="submit" id="send_message" onClick={()=> openInNewTab("/thankyou")}>SUBMIT</button>
 											</div>
 										</div>
 									</form>
