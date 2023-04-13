@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
 import Sticky from 'react-stickynode';
@@ -8,8 +8,9 @@ import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
-
-import Navbar from 'containers/SaasModern/Navbar';
+import dynamic from 'next/dynamic';
+import LogoImage from 'common/assets/image/saasModern/logo-white.png';
+import Image from 'next/image';
 class CustomError extends Component {
     render() {
         return (
@@ -32,13 +33,17 @@ class CustomError extends Component {
         <ContentWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
-              <Navbar />
+             
             </DrawerProvider>
           </Sticky>
           <div className="error-area">
                 <div className="d-table">
+                
                     <div className="d-table-cell">
-                        <div className="error-content-wrap">
+                        <div className="error-content-wrap" style={{'height':'100vh','alignItems':'center','textAlign':'center','display':'flex','flexDirection':'column','justifyContent':'center'}}>
+                        <Image
+            src={LogoImage} width={250} height={250}
+          />
                             <h2>Your message has been received.</h2>
                             <h3 style={{"textAlign":"center","color":"#ad5555"}}>Thank you for your reaching out to us.</h3>
                             <p>Our staff will get back to you shortly..</p>
@@ -53,7 +58,7 @@ class CustomError extends Component {
                 </div>
             </div>
 
-          <Footer />
+         
         </ContentWrapper>
       </Fragment>
     </ThemeProvider>
