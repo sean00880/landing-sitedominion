@@ -16,10 +16,10 @@ export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>
        <Head>
-
-        
-        
-       <Script src="https://www.googletagmanager.com/gtag/js?id=G-LYS6SMLR0H"
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+      
+            </Head>
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-LYS6SMLR0H"
         strategy="afterInteractive"></Script>
             <Script
               id='google-analytics'
@@ -34,9 +34,6 @@ export default function CustomApp({ Component, pageProps }) {
               });
               `,
               }}/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
-      
-            </Head>
       <Component {...pageProps} />
     </Modal>
   );
