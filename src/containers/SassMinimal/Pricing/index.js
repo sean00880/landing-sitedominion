@@ -50,9 +50,9 @@ const Pricing = () => {
         <Box className="blockTitle">
           <Text
             as="span"
-            content="PRICING PLAN"
+            content="WEBSITE PACKAGES"
           />
-          <Heading as="h2" content="What deal suit you perfect" />
+          <Heading as="h2" content="Choose one of our website packages to get started." />
         </Box>
         <Box className="pricingFilter">
         <span className="pricingOffer">Discounted Price</span>
