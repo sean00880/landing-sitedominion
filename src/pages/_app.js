@@ -16,19 +16,24 @@ export default function CustomApp({ Component, pageProps }) {
   return (
     <Modal>
        <Head>
+
+        
         
        <Script src="https://www.googletagmanager.com/gtag/js?id=G-LYS6SMLR0H"
         strategy="afterInteractive"></Script>
-            <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-LYS6SMLR0H');
-        `}
-        
-      </Script>
+            <Script
+              id='google-analytics'
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LYS6SMLR0H', {
+                page_path: window.location.pathname,
+              });
+              `,
+              }}/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
       
             </Head>
