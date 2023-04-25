@@ -68,7 +68,7 @@ const FaqSection = ({
             <div className="content_holder">
 								<div className="list">
 				<div className="contact_left">
-									<h3>-- Prefer cusotm pricing instead? Get Your Instant <span>FREE</span> Quote! --</h3>
+									<h3>-- Prefer custom pricing instead? Get Your Instant <span>FREE</span> Quote! --</h3>
 									<hr />
 									<div className="empty_notice"><span style={{'color':'#b73834'}}>Please Fill Required Fields</span></div>
 									<form className="contact_form" action="/" method="post" autoComplete="off" data-email="service@sitedominion.com"  ref={form} onSubmit={sendEmail}>

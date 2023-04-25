@@ -58,7 +58,7 @@ const InfoSection = ({
               content="We unleash the power of innovation, creativity and expertise to craft websites that exceed your expectations. Let us elevate your online presence to new heights with our exceptional web development services."
             />
             <Box>
-              <Link href="#">
+              <Link href="#process_section">
                 <a>
                   <Button {...button} title="HOW IT WORKS" />
                 </a>
