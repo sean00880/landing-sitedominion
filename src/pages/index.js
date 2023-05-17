@@ -31,7 +31,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Website Design Service | Professional Custom Web Design</title>
+          <title>Website Design Services | Professional Custom Web Design</title>
           <meta name="Description" content="Top Professionally Designed Custom Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
