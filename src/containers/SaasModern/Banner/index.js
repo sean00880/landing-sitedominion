@@ -35,7 +35,7 @@ const BannerSection = ({
             
             <Heading 
               {...title}
-              content="Transformative Custom Web Design | San Diego"
+              content="Professional Website Design Services"
             />
            
             <Text
