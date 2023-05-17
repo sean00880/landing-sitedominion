@@ -24,8 +24,8 @@ const Portfolio = () => {
     <ThemeProvider theme={portfolioTheme}>
       <Fragment>
         <Head>
-          <title>Portfolio | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Portfolio | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link

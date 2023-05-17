@@ -187,7 +187,7 @@ export const ContentWrapper = styled.div`
           }
         }
       }
-      @media (max-width: 990px) {
+      @media (max-width: 1200px) {
         display: none;
       }
     }
@@ -197,7 +197,7 @@ export const ContentWrapper = styled.div`
       }
     }
     .reusecore-drawer__handler {
-      @media (min-width: 991px) {
+      @media (min-width: 1200px) {
         display: none !important;
       }
       .hamburgMenu__bar {

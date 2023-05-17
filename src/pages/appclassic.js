@@ -24,7 +24,7 @@ const AppClassic = () => {
       <>
         <Head>
           <title>App classic | A next js landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#2563FF" />
           <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Modren landing, Next js landing" />
         </Head>

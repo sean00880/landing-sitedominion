@@ -23,7 +23,7 @@ const AppModern = () => {
       <>
         <Head>
           <title>App Modern | A next js landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#2563FF" />
           <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Modren landing, Next js landing" />
           <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700&display=swap" rel="stylesheet" />

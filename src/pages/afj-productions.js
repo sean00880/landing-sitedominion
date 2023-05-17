@@ -30,7 +30,7 @@ const SaasModern = () => {
       <Fragment>
         <Head>
           <title>Site Dominion | Insurance Agency Project Overview</title>
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link

@@ -24,8 +24,8 @@ const HostingModern = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Hosting Modern | A react next landing page</title>
-        <meta name="Description" content="React next landing page" />
+        <title>Hosting Modern | A Premium Business Websites</title>
+        <meta name="Description" content="Premium Business Websites" />
         <meta name="theme-color" content="#362C8B" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif|DM+Sans:400,400i,500,500i,700,700i&display=swap" />
       </Head>

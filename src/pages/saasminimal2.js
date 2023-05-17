@@ -24,9 +24,9 @@ const SaasMinimal = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>SaaS Minimal 2 | A react next landing page</title>
+          <title>SaaS Minimal 2 | A Premium Business Websites</title>
           <meta name="theme-color" content="#0C233C" />
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
 
           {/* Load google fonts */}
           <link

@@ -26,8 +26,8 @@ const Hosting = () => {
     <ThemeProvider theme={hostingTheme}>
       <ParallaxProvider>
         <Head>
-          <title>Hosting | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Hosting | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#eb4d4b" />
           <link
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900|Open+Sans:400,400i,600,700"

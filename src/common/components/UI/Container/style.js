@@ -21,15 +21,15 @@ const ContainerWrapper = styled.div`
       padding-right: 30px;
     `};
   @media (min-width: 768px) {
-    max-width: 750px;
+    max-width: 100%;
     width: 100%;
   }
   @media (min-width: 992px) {
-    max-width: 970px;
+    max-width: 100%;
     width: 100%;
   }
   @media (min-width: 1220px) {
-    max-width: ${(props) => props.width || '1170px'};
+    max-width: ${(props) => props.width || '100%'};
     width: 100%;
   }
   @media (min-width: 1400px) {

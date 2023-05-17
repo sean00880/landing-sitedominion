@@ -24,9 +24,9 @@ const AgencyDigital = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Agency Digital | A react next landing page</title>
+          <title>Agency Digital | A Premium Business Websites</title>
           <meta name="theme-color" content="#FF825C" />
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
 
           {/* Load google fonts */}
           <link

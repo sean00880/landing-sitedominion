@@ -28,8 +28,8 @@ const appCreativeTwo = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Mobile App Creative | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Mobile App Creative | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -64,8 +64,8 @@ const App = () => {
     <ThemeProvider theme={appTheme}>
       <>
         <Head>
-          <title>App | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>App | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"

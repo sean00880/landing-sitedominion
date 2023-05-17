@@ -33,14 +33,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           <Logo
             href="/"
             logoSrc={LogoImage}
-            title="Portfolio"
+            title="Site Dominion LLC"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
             href="/"
             logoSrc={LogoImageAlt}
-            title="Portfolio"
+            title="Site Dominion LLC"
             logoStyle={logoStyle}
             className="logo-alt"
           />

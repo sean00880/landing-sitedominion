@@ -33,8 +33,8 @@ const AgencyClassic = () => {
       <Fragment>
         {/* Start agency head section */}
         <Head>
-          <title>Agency | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Agency | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#10ac84" />
 
           {/* Load google fonts */}

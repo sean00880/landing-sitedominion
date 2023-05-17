@@ -27,7 +27,7 @@ const WebApp = () => {
       <>
         <Head>
           <title>Web App | A next js landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#2563FF" />
           <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700" rel="stylesheet" />
           <meta name="keywords" content="React, React js, Next, Next js, Super fast next js landing, Modren landing, Next js landing" />

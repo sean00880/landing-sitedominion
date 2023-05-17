@@ -21,9 +21,9 @@ const Donation = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Donation | A react next landing page</title>
+          <title>Donation | A Premium Business Websites</title>
           <meta name="theme-color" content="#FF825C" />
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
 
           {/* Load google fonts */}
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" />

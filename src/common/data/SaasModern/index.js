@@ -90,6 +90,7 @@ export const PROCESS_ITEMS = [
     description:
       'Our team of web developers work on the project and deliver the website to you within the agreed-upon timeframe.',
   },
+
 ];
 
 export const MONTHLY_PRICING_TABLE = [

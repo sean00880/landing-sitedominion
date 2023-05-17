@@ -26,8 +26,8 @@ const FoodDelivery = () => {
     <ThemeProvider theme={foodDeliveryTheme}>
       <Fragment>
         <Head>
-          <title>FoodDelivery | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>FoodDelivery | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#fff2d9" />
           {/* Load google fonts */}
           <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700" rel="stylesheet" />

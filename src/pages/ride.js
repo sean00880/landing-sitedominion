@@ -22,9 +22,9 @@ const Ride = () => {
     <ThemeProvider theme={rideTheme}>
       <Fragment>
         <Head>
-          <title>Ride Sharing | A react next landing page</title>
+          <title>Ride Sharing | A Premium Business Websites</title>
           <meta name="theme-color" content="#ec5555" />
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Premium Business Websites" />
 
           {/* Load google fonts */}
           <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Lato:300,400,700" rel="stylesheet" />

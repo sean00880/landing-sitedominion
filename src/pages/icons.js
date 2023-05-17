@@ -8,7 +8,7 @@ const Icons = () => {
   return (
     <ThemeProvider theme={agencyTheme}>
       <Head>
-        <title>Icons | A react next landing page</title>
+        <title>Icons | A Premium Business Websites</title>
       </Head>
       <Fragment>
         <ResetCSS />

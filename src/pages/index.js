@@ -11,6 +11,7 @@ import BannerSection from 'containers/SaasModern/Banner';
 
 import Navbar from 'containers/SaasModern/Navbar';
 const WorkingProcessSection = dynamic(() => import('containers/SaasModern/WorkingProcess'));
+const WorkProcess = dynamic(() => import('containers/SaasModern/WorkingProcess/WorkProcess'));
 const PricingSection = dynamic(() => import('containers/SassMinimal/Pricing'));
 const PartnerSection = dynamic(() => import('containers/SaasModern/Partner'));
 import BlogSection from 'containers/Agency/BlogSection';
@@ -30,8 +31,8 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Best Web Design San Diego</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Website Design Service | Professional Custom Web Design</title>
+          <meta name="Description" content="Top Professionally Designed Custom Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link

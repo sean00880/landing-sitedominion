@@ -28,8 +28,8 @@ const Charity = () => {
       <Fragment>
         {/* Start charity head section */}
         <Head>
-          <title>Charity | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Charity | A Premium Business Websites</title>
+          <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#FCF22B" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {/* Load google fonts */}
