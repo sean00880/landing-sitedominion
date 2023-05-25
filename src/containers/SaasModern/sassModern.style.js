@@ -192,6 +192,7 @@ export const ContentWrapper = styled.div`
       }
     }
     .navbar_button {
+      margin: 0 10px;
       @media (max-width: 990px) {
         display: none;
       }

@@ -55,6 +55,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 <Button {...button} title="GET STARTED" />
               </a>
             </Link>
+            
             <Drawer
               width="420px"
               placement="right"

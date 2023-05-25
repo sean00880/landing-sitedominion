@@ -1,13 +1,18 @@
 import styled from 'styled-components';
+import BannerBG from 'common/assets/image/saasModern/banner-texture3.png';
 
 const SectionWrapper = styled.section`
   padding: 100px 0 0 0;
-  background: linear-gradient( 70deg,rgb(32 32 51) 0%,rgb(58 70 124) 100% );
+  background-image: url(${BannerBG?.src}),
+  linear-gradient(125deg,rgb(206 28 40) 0%,rgb(62 62 62) 100%);
+  background-attachment:fixed;
+  background-size:cover;
   @media (max-width: 990px) {
     padding: 80px 0 0 0;
   }
   @media (max-width: 575px) {
     padding: 60px 0 0 0;
+    background-attachment:scroll;
   }
 
   @keyframes ScaleInUp {
@@ -136,6 +141,8 @@ const SectionWrapper = styled.section`
         border-radius: 10px;
         overflow: hidden;
         box-shadow: 0px 5px 60px 0px rgba(27, 67, 111, 0.15);
+        background: #ffffff0f;
+    border: 1px solid white;
         &.rc-tabs-tabpane-active {
           animation: 0.7s ScaleInUp;
         }

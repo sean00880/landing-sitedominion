@@ -1,14 +1,16 @@
 import styled from 'styled-components';
-import BannerBG from 'common/assets/image/saasModern/banner-texture.png';
+import BannerBG from 'common/assets/image/saasModern/banner-texture3.png';
 
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
   background-image: url(${BannerBG?.src}),
   linear-gradient(125deg,rgb(206 28 40) 0%,rgb(62 62 62) 100%);
   background-size: cover;
+  background-attachment:fixed;
   background-position: top center;
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
+    background-attachment:scroll;
   }
 
   img {
