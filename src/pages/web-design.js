@@ -16,6 +16,7 @@ import FaqSection from 'containers/SaasModern/Faq';
 import TrialSection from 'containers/SaasModern/Trial';
 import InfoSection from 'containers/SaasModern/Info/DevelopmentInfo';
 import FeatureSection from 'containers/SaasModern/Feature';
+import BlogSection from 'containers/Agency/BlogSection';
 import UpdateScreen from 'containers/SaasModern/UpdateScreen';
 import TestimonialSection from 'containers/SaasModern/Testimonial';
 import Footer from 'containers/SaasModern/Footer';
@@ -56,7 +57,7 @@ const SaasModern = () => {
           <UpdateScreen />
           <PricingSection />
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           <FaqSection />
          

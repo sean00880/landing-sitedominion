@@ -17,7 +17,7 @@ class CustomError extends Component {
             <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Best Web Design San Diego</title>
+          <title>Professional Web Design</title>
           <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}

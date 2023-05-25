@@ -20,6 +20,7 @@ import UpdateScreen from 'containers/SaasModern/UpdateScreen';
 import TestimonialSection from 'containers/SaasModern/Testimonial';
 import Footer from 'containers/SaasModern/Footer';
 import Service from 'containers/AgencyDigital/Service';
+import BlogSection from 'containers/Agency/BlogSection';
 import TrustedProofSections from 'containers/Crypto/TrustedProof';
 const Gallery = dynamic(() => import('containers/Interior/Gallery'));
 const ContactSection = dynamic(() => import('containers/SaasModern/Contact'));
@@ -56,7 +57,7 @@ const SaasModern = () => {
           <PricingSection />
           
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           <FaqSection />
           

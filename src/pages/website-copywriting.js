@@ -14,6 +14,7 @@ import PricingSection from 'containers/SassMinimal/Pricing';
 import PartnerSection from 'containers/SaasModern/Partner';
 import FaqSection from 'containers/SaasModern/Faq';
 import TrialSection from 'containers/SaasModern/Trial';
+import BlogSection from 'containers/Agency/BlogSection';
 import InfoSection from 'containers/SaasModern/Info/CopywritingInfo';
 import FeatureSection from 'containers/SaasModern/Feature';
 import UpdateScreen from 'containers/SaasModern/UpdateScreen';
@@ -56,7 +57,7 @@ const SaasModern = () => {
           <UpdateScreen />
           <PricingSection />
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           <FaqSection />
          

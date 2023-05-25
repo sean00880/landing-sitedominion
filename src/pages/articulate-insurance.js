@@ -6,7 +6,7 @@ import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { saasModernTheme } from 'common/theme/saasModern';
 import ResetCSS from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/SaasModern/sassModern.style';
-
+import BlogSection from 'containers/Agency/BlogSection';
 import BannerSection from 'containers/SaasModern/Banner/BannerProjects4';
 import Navbar from 'containers/SaasModern/Navbar';
 import WorkingProcessSection from 'containers/SaasModern/WorkingProcess';
@@ -56,7 +56,7 @@ const SaasModern = () => {
           <UpdateScreen />
           <PricingSection />
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           
           <FaqSection />

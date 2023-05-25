@@ -77,7 +77,7 @@ const InfoSection = ({
             <h3>Changes to Privacy Policy</h3>
             <p>We may update our privacy policy from time to time to reflect changes in our practices or services. We will notify you of any significant changes to this policy.</p>
              <h3>Contact Us</h3>
-             <p>If you have any questions or concerns about our privacy policy or how we handle your personal information, please contact us at https://www.sitedominion.com/getting-started/#quote.</p>
+             <p>If you have any questions or concerns about our privacy policy or how we handle your personal information, please contact us at <Link href="/#contact_section">here</Link>.</p>
   
       </Container>
       

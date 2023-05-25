@@ -18,6 +18,7 @@ import FeatureSection from 'containers/SaasModern/Feature';
 import UpdateScreen from 'containers/SaasModern/UpdateScreen';
 import TestimonialSection from 'containers/SaasModern/Testimonial';
 import Footer from 'containers/SaasModern/Footer';
+import BlogSection from 'containers/Agency/BlogSection';
 import Service from 'containers/AgencyDigital/Service';
 import TrustedProofSections from 'containers/Crypto/TrustedProof';
 import dynamic from 'next/dynamic';
@@ -56,7 +57,7 @@ const SaasModern = () => {
           <PricingSection />
           
           <ContactSection/>
-          <Gallery/>
+          <BlogSection/>
           <TestimonialSection />
           <FaqSection />
           

@@ -11,6 +11,7 @@ import galleryImg2 from 'common/assets/image/interior/gallery/2.jpg';
 import galleryImg3 from 'common/assets/image/interior/gallery/3.jpg';
 import galleryImg4 from 'common/assets/image/interior/gallery/4.jpg';
 import galleryImg5 from 'common/assets/image/interior/gallery/5.jpg';
+import galleryImg6 from 'common/assets/image/interior/gallery/6.jpg';
 
 const data = {
   menuItems: [
@@ -177,6 +178,12 @@ const data = {
       thumbnail_url: galleryImg5,
       title: 'AFJ Productions',
       postLink: '/afj-productions',
+    },
+    {
+      id: 6,
+      thumbnail_url: galleryImg6,
+      title: 'San Diego Custom Backyard & Landscaping',
+      postLink: '/sd-landscaping',
     },
   ],
   teamMember: [

@@ -29,7 +29,7 @@ const SaasModern = () => {
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
         <Head>
-          <title>Site Dominion | Insurance Agency Project Overview</title>
+          <title>Site Dominion | Video Production Studio Website Project Overview</title>
           <meta name="Description" content="Premium Business Websites" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
